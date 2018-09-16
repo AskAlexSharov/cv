@@ -17,13 +17,12 @@
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ end }}
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400i,500,800" rel="stylesheet">
-    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
-    <link href='{{ "css/belmu.min.css" | absURL }}?{{ now.UnixNano }}' rel='stylesheet' type="text/css" />
-    <link href='{{ "css/main.min.css" | absURL }}?{{ now.UnixNano }}' rel='stylesheet' type="text/css" />
-    {{ else }}
-    <link href='{{ "css/belmu.css" | absURL }}?{{ now.UnixNano }}' rel='stylesheet' type="text/css" />
-    <link href='{{ "css/main.css" | absURL }}?{{ now.UnixNano }}' rel='stylesheet' type="text/css" />
-    {{ end }}
+
+    {{ $styleBase := resources.Get "css/belmu.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $styleBase.Permalink }}" type="text/css" >
+
+    {{ $styleMain := resources.Get "css/main.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $styleMain.Permalink }}" type="text/css" >
 
     {{ block "favicon" . }}
     {{ partial "site-favicon.html" . }}

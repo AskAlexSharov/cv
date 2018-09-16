@@ -79,7 +79,7 @@ footer a:hover {
     padding-left: 0;
     padding-bottom: 0.7em;
     padding-right: 0;
-    font-size: 0.75em;
+    font-size: 0.85em;
     list-style-type: none;
     font-style: italic;
     color: #999;
@@ -212,9 +212,10 @@ ul li {
     text-align: left;
     list-style-type: circle;
     /* padding-left: 0.2em; */
+    line-height: 1.3em;
     display: list-item;
     font-weight: 200;
-    font-size: 0.65em;
+    font-size: 0.85em;
     padding-bottom: 0.1em;
 }
 

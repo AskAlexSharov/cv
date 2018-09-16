@@ -54,10 +54,12 @@ During 5 years with my current company I passed long way from small-funded start
 {{% /column %}}
 
 {{% column sidebar -span-cols-3 -p-left-1 %}}
+#### Education 
+  * Master Degree. Math and System Programming. Compilers and interpreters. Moscow State University.  
+
 #### Fluent with
   * Go, JS, PHP, TypeScript 
   * Oracle Certified [Java 8 Professional](https://www.youracclaim.com/badges/e729c951-ad94-469b-9d53-6df58d6a8f32/public_url) and [Associate](https://www.youracclaim.com/badges/3c1dcd16-2dfa-434a-aaea-0d1d523f966e/public_url)
-  * My academic major - building compilers and interpreters
   * Nginx/HAProxy, Docker/Kuber
   * MySql/Mongo, Etcd/Consul
   * RabbitMQ/Kafka
