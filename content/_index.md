@@ -9,7 +9,7 @@ During 5 years with my current company I passed long way from small-funded start
 {{% grid %}}
 
 {{% column experience -span-cols-7 %}}
-#### Professional Experience
+#### Experience
 
 ### Lazada | Alibaba Group (400 engineers) 
 ###### *Jun 2017 - Present: VP of Engineering*
@@ -57,6 +57,11 @@ During 5 years with my current company I passed long way from small-funded start
 #### Education 
   * Master Degree. Math and System Programming. Compilers and interpreters. Moscow State University.  
 
+#### Member of 
+  * Ethereum Swarm working group
+
+---------
+
 #### Fluent with
   * Go, JS, PHP, TypeScript 
   * Oracle Certified [Java 8 Professional](https://www.youracclaim.com/badges/e729c951-ad94-469b-9d53-6df58d6a8f32/public_url) and [Associate](https://www.youracclaim.com/badges/3c1dcd16-2dfa-434a-aaea-0d1d523f966e/public_url)
@@ -69,10 +74,6 @@ During 5 years with my current company I passed long way from small-funded start
 #### Familiar with
   * FP - Elm, Haskell
   * Frontend - Angular, React, Vue, Ionic and FireBase
-
-#### Interested in
-  * Blockchain research
-  * Performance optimizations
 
 ---------
 

@@ -251,7 +251,7 @@ label {
 :root {
     --spacing: 0.9375rem;
     --border-radius: 0.3rem;
-    --transition-all: 0.36s all;
+    /*--transition-all: 0.36s all;*/
 }
 
 /*
@@ -2179,35 +2179,35 @@ All Utility classes go here.
 /* -- Positioning
    –––––––––––––– */
 
-.-pos-fixed, .-fixed {
-    position: fixed;
-}
+/*.-pos-fixed, .-fixed {*/
+    /*position: fixed;*/
+/*}*/
 
-.-pos-absolute {
-    position: absolute;
-}
+/*.-pos-absolute {*/
+    /*position: absolute;*/
+/*}*/
 
-.-pos-relative {
-    position: relative;
-}
+/*.-pos-relative {*/
+    /*position: relative;*/
+/*}*/
 
 /* POSITIONING HELPERS */
 
-.-t-0, .-top-0 {
-    top: 0;
-}
+/*.-t-0, .-top-0 {*/
+    /*top: 0;*/
+/*}*/
 
-.-r-0, .-right-0 {
-    right: 0;
-}
+/*.-r-0, .-right-0 {*/
+    /*right: 0;*/
+/*}*/
 
-.-b-0, .-bottom-0 {
-    bottom: 0;
-}
+/*.-b-0, .-bottom-0 {*/
+    /*bottom: 0;*/
+/*}*/
 
-.-l-0, .-left-0 {
-    left: 0;
-}
+/*.-l-0, .-left-0 {*/
+    /*left: 0;*/
+/*}*/
 
 /* .-top-half: 0.5rem;
 
@@ -2657,25 +2657,25 @@ All Utility classes go here.
     text-transform: none;
 }
 
-.-lineheight-1 {
-    line-height: 1em;
-}
+/*.-lineheight-1 {*/
+    /*line-height: 1em;*/
+/*}*/
 
-.-lineheight-1-2 {
-    line-height: 1.2em;
-}
+/*.-lineheight-1-2 {*/
+    /*line-height: 1.2em;*/
+/*}*/
 
-.-lineheight-1-3 {
-    line-height: 1.3em;
-}
+/*.-lineheight-1-3 {*/
+    /*line-height: 1.3em;*/
+/*}*/
 
-.-lineheight-1-4 {
-    line-height: 1.4em;
-}
+/*.-lineheight-1-4 {*/
+    /*line-height: 1.4em;*/
+/*}*/
 
-.-lineheight-1-5 {
-    line-height: 1.5rem;
-}
+/*.-lineheight-1-5 {*/
+    /*line-height: 1.5rem;*/
+/*}*/
 
 .-text-left {
     text-align: left;
@@ -2692,103 +2692,103 @@ All Utility classes go here.
 /* -- Typesizes
    –––––––––––– */
 
-.-rem-3 {
-    font-size: 3rem;
-}
+/*.-rem-3 {*/
+    /*font-size: 3rem;*/
+/*}*/
 
-.-rem-2 {
-    font-size: 2rem;
-}
+/*.-rem-2 {*/
+    /*font-size: 2rem;*/
+/*}*/
 
-.-rem-1-75 {
-    font-size: 1.75rem;
-}
+/*.-rem-1-75 {*/
+    /*font-size: 1.75rem;*/
+/*}*/
 
-.-rem-1-5 {
-    font-size: 1.5rem;
-}
+/*.-rem-1-5 {*/
+    /*font-size: 1.5rem;*/
+/*}*/
 
-.-rem-1-2 {
-    font-size: 1.2rem;
-}
+/*.-rem-1-2 {*/
+    /*font-size: 1.2rem;*/
+/*}*/
 
-.-rem-1 {
-    font-size: 1rem;
-}
+/*.-rem-1 {*/
+    /*font-size: 1rem;*/
+/*}*/
 
-.-rem-09 {
-    font-size: 0.9rem;
-}
+/*.-rem-09 {*/
+    /*font-size: 0.9rem;*/
+/*}*/
 
-.-rem-085 {
-    font-size: 0.85rem;
-}
+/*.-rem-085 {*/
+    /*font-size: 0.85rem;*/
+/*}*/
 
-.-rem-08 {
-    font-size: 0.8rem;
-}
+/*.-rem-08 {*/
+    /*font-size: 0.8rem;*/
+/*}*/
 
-.-rem-075 {
-    font-size: 0.7rem;
-}
+/*.-rem-075 {*/
+    /*font-size: 0.7rem;*/
+/*}*/
 
-.-rem-07 {
-    font-size: 0.7rem;
-}
+/*.-rem-07 {*/
+    /*font-size: 0.7rem;*/
+/*}*/
 
-.-rem-06 {
-    font-size: 0.6rem;
-}
+/*.-rem-06 {*/
+    /*font-size: 0.6rem;*/
+/*}*/
 
 /* Ems */
 
-.-em-3 {
-    font-size: 3em;
-}
+/*.-em-3 {*/
+    /*font-size: 3em;*/
+/*}*/
 
-.-em-2 {
-    font-size: 2em;
-}
+/*.-em-2 {*/
+    /*font-size: 2em;*/
+/*}*/
 
-.-em-1-75 {
-    font-size: 1.75em;
-}
+/*.-em-1-75 {*/
+    /*font-size: 1.75em;*/
+/*}*/
 
-.-em-1-5 {
-    font-size: 1.5em;
-}
+/*.-em-1-5 {*/
+    /*font-size: 1.5em;*/
+/*}*/
 
-.-em-1-2 {
-    font-size: 1.2em;
-}
+/*.-em-1-2 {*/
+    /*font-size: 1.2em;*/
+/*}*/
 
-.-em-1 {
-    font-size: 1em;
-}
+/*.-em-1 {*/
+    /*font-size: 1em;*/
+/*}*/
 
-.-em-09 {
-    font-size: 0.9em;
-}
+/*.-em-09 {*/
+    /*font-size: 0.9em;*/
+/*}*/
 
-.-em-085 {
-    font-size: 0.85em;
-}
+/*.-em-085 {*/
+    /*font-size: 0.85em;*/
+/*}*/
 
-.-em-08 {
-    font-size: 0.8em;
-}
+/*.-em-08 {*/
+    /*font-size: 0.8em;*/
+/*}*/
 
-.-em-075 {
-    font-size: 0.7em;
-}
+/*.-em-075 {*/
+    /*font-size: 0.7em;*/
+/*}*/
 
-.-em-07 {
-    font-size: 0.7em;
-}
+/*.-em-07 {*/
+    /*font-size: 0.7em;*/
+/*}*/
 
-.-em-06 {
-    font-size: 0.6em;
-}
+/*.-em-06 {*/
+    /*font-size: 0.6em;*/
+/*}*/
 
 .unsupported, .ie11, .ie10, .ie678 {
     display: none;
