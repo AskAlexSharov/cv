@@ -5,9 +5,9 @@ var options = {
     "format": 'A4',
     "border": {
         "top": "1cm",            // default is 0, units: mm, cm, in, px
-        "right": "3cm",
+        "right": "2cm",
         "bottom": "2cm",
-        "left": "3cm"
+        "left": "2.5cm"
     }
 };
 

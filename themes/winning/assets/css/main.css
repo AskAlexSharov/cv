@@ -58,7 +58,7 @@ footer a:hover {
 }
 
 .main .grid {
-    margin-top: 2em;
+    margin-top: 1.5em;
 }
 
 .main > h2:first-child {
@@ -107,10 +107,10 @@ footer a:hover {
 }
 
 .main h6 em {
-    line-height: 1.2em;
+    line-height: 1.3em;
     margin-top: 1em;
     padding-right: 1em;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 400;
     color: rgb(70, 122, 163);
 }
@@ -202,6 +202,7 @@ dl dd {
 
 ul {
     padding-left: 1em;
+    margin-bottom: .2em;
 }
 
 ul li {
@@ -325,6 +326,10 @@ ul li {
 
 /* Print specific stuff (mainly for pdf generation) */
 @media print {
+    html, body {
+        font-size: 0.85em;
+    }
+
     .face {
         width: 8em;
     }
@@ -394,10 +399,10 @@ ul li {
         max-width: none;
     }
 
-    .main ul {
-        margin-top: 10px;
-        margin-left: 0.5em;
-    }
+    /*.main ul {*/
+        /*margin-top: 10px;*/
+        /*margin-left: 0.5em;*/
+    /*}*/
 
     dl dd {
         padding-bottom: 0
