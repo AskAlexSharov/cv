@@ -1,10 +1,15 @@
 ---
 title: CV
 ---
-# Alex Sharov
-Had great mix of Programmer, SRE and VP of Engineering workloads. It required permannent improvement of Hard and Soft skill set. In one hand I'm Polyglot with administration skills of different DB's, MQ and Search Engines, in another - lead that did speed-up release processes, built geo-distributed teams, worked on buisiness priorities. 
+## Alexey Sharov
 
-During 5 years with my current company I passed long way from small-funded startup to $5B part of Alibaba Group. Now I'm full-of-energy and passionate to learn Blockchain in-depth, looking for complex tech challenges and remote work.
+{{% face %}} Had great mix of Programmer, SRE and VP of Engineering workloads. 
+It required permanent improvement of Hard and Soft skill set. 
+In one hand I'm Polyglot with administration skills of different DB's, MQ and Search Engines, 
+in another - lead that did speed-up release processes, built geo-distributed teams, worked on business priorities. 
+
+During 5 years with my current company I passed long way from small-funded startup to $5B part of Alibaba Group. 
+Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech challenges and remote work.
 
 {{% grid %}}
 
@@ -57,8 +62,6 @@ During 5 years with my current company I passed long way from small-funded start
 #### Education 
   * Master Degree. Math and System Programming. Compilers and interpreters. Moscow State University.  
 
-#### Member of 
-  * Ethereum Swarm working group
 
 ---------
 

@@ -315,6 +315,17 @@ ul li {
     padding-top: 2em;
 }
 
+.face {
+    float: left;
+    margin-right: 1em;
+}
+.face img {
+    float: left;
+}
+.face .name {
+    display: inline-block;
+}
+
 /* Print specific stuff (mainly for pdf generation) */
 @media print {
     .header {
