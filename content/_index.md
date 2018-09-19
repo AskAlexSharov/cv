@@ -21,34 +21,33 @@ Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech c
 
 * Prepare core services for "black friday": [100% uptime, $123M GMV, 3M orders](http://markets.businessinsider.com/news/stocks/Southeast-Asia-s-eCommerce-leader-Lazada-smashes-sales-record-1007843779)
 * Moved Go services to internal Kubernetes
-* Lead Go/PHP teams and Python QA (~20 people in Russia and ~20 in Vietnam)
+* Lead Go/PHP/Python teams: 30 people in Russia/Vietnam
 * Switch to Alibaba Group platform: Java + AliCloud
 
 ###### *Jul 2015 – Jun 2017: Engineering Manager (core services)*
 
 * New logic of image resize - reduced HDD from 48Tb to 4Tb
 * Tune MySql while growth to ~100M products
-* Implement Go services: Products DB/Search, Image Resizing/Storage
-* Introduced Sprints + Retrospectives. Result - 3-6 releases/week
+* Go services dev: Products DB/Search, Image Resizing/Storage
+* Introduced Sprints + Retrospectives, 3-6 releases/week
 
 ###### *Avg 2013 – Jul 2015: Site Reliability Engineering Team Lead*
 
-* Single point of failure elimination: configure Aerospike, ElasticSearch, Vitess (sharding)
+* Single point of failure elimination: configure Aerospike, ElasticSearch, Youtube Vitess
 * Performance: cache hit-rates, PHP profiling, MQ throughput, monitoring, MySql slow-queries
-* Migration from RackSpace to 7 own DataCenters (6 countries)
+* Migration from RackSpace to 7 own DataCenters, 6 countries
 
 ### Rocket Internet (20 engineers)
 ###### *Feb 2012 – Jun 2013: Senior Software Engineer*
 
 * E-Commerce + logistic, ~50.000 unique users/day
-* Phonetic and morphology for Russian lang - Sphinx(c++ search engine)
-* Facets management UI. Marketing department deep collaboration
-* Partners/billings/email/sms services integration
+* Phonetic and morphology for RU lang - Sphinx Search engine
+* Marketing department deep collaboration
 
 ### Art Project (7 engineers)
 ###### *Feb 2011 – Feb 2012: Team Lead*
 
-* Young web-studio, I introduced processes - git, tickets, PRD's, Interviews
+* Young web-studio, I introduced processes: git, tickets, PRD's, Interviews
 * Administrate of Debian servers for all clients
 
 ### 2 other small companies
