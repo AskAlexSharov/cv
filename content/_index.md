@@ -56,7 +56,7 @@ Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech c
 
 {{% /column %}}
 
-{{% column sidebar -span-cols-3 -p-left-1 %}}
+{{% column sidebar -span-cols-3 %}}
 
 ##### Education 
   * Master Degree. Math and System Programming. Compilers and interpreters. Moscow State University  

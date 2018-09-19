@@ -111,17 +111,17 @@ button {
 /* -- Colours (HSL Colours are good)
    ––––––––––––––––––––––––––––––––– */
 
-:root {
-    --core-white: 0, 100%;
-    --core-black: 0, 0%;
-    --core-grey: 220, 30%;
-    --white: hsl(var(--core-white), 100%);
+/*:root {*/
+    /*--core-white: 0, 100%;*/
+    /*--core-black: 0, 0%;*/
+    /*--core-grey: 220, 30%;*/
+    /*--white: hsl(var(--core-white), 100%);*/
 
-    --grey: hsl(var(--core-grey), 60%);
+    /*--grey: hsl(var(--core-grey), 60%);*/
 
     /* FILTERS (Experimental) */
-    --filterwhite: grayscale(100%) brightness(10);
-}
+    /*--filterwhite: grayscale(100%) brightness(10);*/
+/*}*/
 
 /* -- Fonts
    –––––––– */
@@ -172,14 +172,13 @@ button {
 /* -- Typography
    ––––––––––––– */
 
-:root {
-    --sans: sans-serif;
-    --bookweight: 500;
-    --heavyweight: 600;
-    --boldweight: 700;
-    --extraboldweight: 800;
-
-}
+/*:root {*/
+    /*--sans: sans-serif;*/
+    /*--bookweight: 500;*/
+    /*--heavyweight: 600;*/
+    /*--boldweight: 700;*/
+    /*--extraboldweight: 800;*/
+/*}*/
 
 /*body {*/
     /*font-family: var(--sans);*/
@@ -238,11 +237,11 @@ h1, h2, h3, h4, h5, h6 {
 /* -- Vars
    ––––––– */
 
-:root {
-    --spacing: 0.9375rem;
-    --border-radius: 0.3rem;
+/*:root {*/
+    /*--spacing: 0.9375rem;*/
+    /*--border-radius: 0.3rem;*/
     /*--transition-all: 0.36s all;*/
-}
+/*}*/
 
 /*
 @styleguide
@@ -644,7 +643,7 @@ Module
 
 /* -- Colours
    –––––––––– */
-
+/*
 .-white {
     color: var(--white);
 }
@@ -656,6 +655,7 @@ Module
 .-bg-grey {
     background: var(--grey);
 }
+*/
 
 /*.-bg-grey-100 {*/
 /*background: var(--grey-100);*/
@@ -2675,14 +2675,15 @@ All Utility classes go here.
     text-align: left;
 }
 
-.-text-center {
-    text-align: center;
-}
-
 .-text-right {
     text-align: right;
 }
 */
+
+.-text-center {
+    text-align: center;
+}
+
 
 /* -- Typesizes
    –––––––––––– */
@@ -2817,14 +2818,14 @@ All Utility classes go here.
 
 /* override/set vars here */
 
-:root {
+/*:root {*/
     /* sans typeface */
-    --sans: 'Lato', sans-serif;
+    /*--sans: 'Lato', sans-serif;*/
 
     /* colours (main HSL values) */
-    --core-secondary: 148, 40%;
-    --core-primary: 192, 56%;
-    --core-highlight: 350, 98%;
-}
+    /*--core-secondary: 148, 40%;*/
+    /*--core-primary: 192, 56%;*/
+    /*--core-highlight: 350, 98%;*/
+/*}*/
 
 /* END of css */
