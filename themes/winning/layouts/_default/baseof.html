@@ -16,7 +16,6 @@
     {{ else }}
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ end }}
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400i,500,800" rel="stylesheet">
 
     {{ $styleBase := resources.Get "css/belmu.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styleBase.Permalink }}" type="text/css" >
@@ -36,7 +35,6 @@
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
     {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,400,400i,600,900" rel="stylesheet">
 </head>
 
 <body class="ma0 {{ $.Param "body_classes"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">

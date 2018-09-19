@@ -14,44 +14,43 @@ Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech c
 {{% grid %}}
 
 {{% column experience -span-cols-7 %}}
-#### Experience
+##### Experience
 
-### Lazada | Alibaba Group (400 engineers) 
-###### *Jun 2017 - Present: VP of Engineering*
+#### Lazada | Alibaba Group (400 engineers) 
+###### VP of Engineering: *Jun 2017 - Present*
 
 * Prepare core services for "black friday": [100% uptime, $123M GMV, 3M orders](http://markets.businessinsider.com/news/stocks/Southeast-Asia-s-eCommerce-leader-Lazada-smashes-sales-record-1007843779)
 * Moved Go services to internal Kubernetes
 * Lead Go/PHP/Python teams: 30 people in Russia/Vietnam
 * Switch to Alibaba Group platform: Java + AliCloud
 
-###### *Jul 2015 – Jun 2017: Engineering Manager (core services)*
+###### Engineering Manager (core services): *Jul 2015 – Jun 2017*
 
 * New logic of image resize - reduced HDD from 48Tb to 4Tb
 * Tune MySql while growth to ~100M products
 * Go services dev: Products DB/Search, Image Resizing/Storage
 * Introduced Sprints + Retrospectives, 3-6 releases/week
 
-###### *Avg 2013 – Jul 2015: Site Reliability Engineering Team Lead*
+###### Site Reliability Engineering Team Lead: *Avg 2013 – Jul 2015*
 
 * Single point of failure elimination: configure Aerospike, ElasticSearch, Youtube Vitess
 * Performance: cache hit-rates, PHP profiling, MQ throughput, monitoring, MySql slow-queries
 * Migration from RackSpace to 7 own DataCenters, 6 countries
 
-### Rocket Internet (20 engineers)
-###### *Feb 2012 – Jun 2013: Senior Software Engineer*
+#### Rocket Internet (20 engineers)
+###### Senior Software Engineer: *Feb 2012 – Jun 2013*
 
-* E-Commerce + logistic, ~50.000 unique users/day
 * Phonetic and morphology for RU lang - Sphinx Search engine
 * Marketing department deep collaboration
 
-### Art Project (7 engineers)
-###### *Feb 2011 – Feb 2012: Team Lead*
+#### Art Project (7 engineers)
+###### Team Lead: *Feb 2011 – Feb 2012*
 
-* Young web-studio, I introduced processes: git, tickets, PRD's, Interviews
+* Young web-studio, I introduced processes: git, tickets, PRD's, Interviews. 
 * Administrate of Debian servers for all clients
 
-### 2 other small companies
-###### *Jun 2010 – Jun 2011: PHP Developer*
+#### 2 other small companies
+###### PHP Developer: *Jun 2010 – Jun 2011*
 
 * Full-Stack - Yii/JS web dev
 
@@ -59,13 +58,12 @@ Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech c
 
 {{% column sidebar -span-cols-3 -p-left-1 %}}
 
-#### Education 
-  * Master Degree. Math and System Programming. Compilers and interpreters. Moscow State University.  
+##### Education 
+  * Master Degree. Math and System Programming. Compilers and interpreters. Moscow State University  
 
+{{% divider %}}
 
----------
-
-#### Fluent with
+##### Fluent with
   * Go, JS, PHP, TypeScript 
   * Oracle Certified [Java 8 Professional](https://www.youracclaim.com/badges/e729c951-ad94-469b-9d53-6df58d6a8f32/public_url) and [Associate](https://www.youracclaim.com/badges/3c1dcd16-2dfa-434a-aaea-0d1d523f966e/public_url)
   * Nginx/HAProxy, Docker/Kuber
@@ -74,26 +72,27 @@ Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech c
   * ElasticSearch/Sphinx
   * Ansible/Puppet
 
-#### Familiar with
+##### Familiar with
   * FP - Elm, Haskell
   * Frontend - Angular, React, Vue, Ionic and FireBase
 
----------
 
-#### Communication
+{{% divider %}}
+
+##### Communication
   * English: Fluent
   * Russian: Native
 
-#### Hobbies
+##### Hobbies
   * Karate, Guitar
 
-#### Links
+##### Links
   * [github.com/nizsheanez](http://github.com/nizsheanez)
   * [gitlab.com/nizsheanez](https://gitlab.com/nizsheanez)
   * [linkedin.com/in/alex-sharov](https://www.linkedin.com/in/alex-sharov/)
   * [angel.co/alexey-sharov](https://angel.co/alexey-sharov)
 
-#### Contacts
+##### Contacts
   * [www.pismeco@gmail.com](mailto:www.pismeco@gmail.com)
   * skype: nizsheanez
 

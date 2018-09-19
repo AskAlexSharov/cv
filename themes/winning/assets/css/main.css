@@ -1,14 +1,22 @@
 /* Vanilla CSS you should try it */
 html, body {
-    font-family: 'Fira sans', sans-serif;
+    font-family: sans-serif;
+    /*font-family: 'Fira sans', sans-serif;*/
     /* background: url('../img/noisyly.png') repeat fixed, linear-gradient(to bottom, rgba(28,20,20,0.26) 0%,rgba(155,155,155,0) 0.2em) fixed; */
-    font-size: 0.9em;
+    /*font-size: 0.9em;*/
     overflow-x: hidden;
 }
 
 html {
     /* background: rgb(76, 76, 76) url('../img/noisyly.png'); */
     border-bottom: 10px solid #000;
+}
+
+.divider {
+    height: 1px;
+    border: 0 dashed #ddd;
+    border-top-width: 1px;
+    margin-bottom: .5em;
 }
 
 footer a:hover {
@@ -47,7 +55,7 @@ footer a:hover {
 .main {
     grid-area: main;
     margin: 0 auto 40px;
-    line-height: 1.2em;
+    line-height: 1.1em;
     text-align: left;
     width: 85%;
     max-width: 35em;
@@ -66,8 +74,9 @@ footer a:hover {
 }
 
 .main .sidebar {
-    border-left: 1px solid #ccc;
-    font-size: 0.85em;
+    padding-left: 1rem;
+    border-left: 1px dashed #ddd;
+    font-size: 0.8em;
     line-height: 1.4;
 }
 
@@ -77,42 +86,39 @@ footer a:hover {
 
 .main .sidebar ul li {
     padding-left: 0;
-    padding-bottom: 0.7em;
+    padding-bottom: 0.6em;
     padding-right: 0;
-    font-size: 0.85em;
     list-style-type: none;
-    font-style: italic;
-    color: #555;
+    /*font-style: italic;*/
+    color: #333;
 }
 
-.main h4 {
-    text-transform: uppercase;
-    font-size: 0.9em;
-    font-weight: 800;
-    letter-spacing: 1px;
-    margin-bottom: 0.5em;
+.main h5 {
+    /*text-transform: uppercase;*/
+    /*font-size: 0.9em;*/
+    /*font-weight: 800;*/
+    /*letter-spacing: 1px;*/
+    margin: 0 0 .5em 0;
 }
 
 .main h3 {
-    margin: 1em 0 0 0;
-    font-weight: 400;
-    font-size: 0.9em;
+    margin: .7em 0 0 0;
+    /*font-weight: 400;*/
+    /*font-size: 0.9em;*/
 }
 
 .main h6 {
-    margin: 0;
+    margin: 0 0 0 0;
     padding: 0;
-    font-size: 0.7em;
-    line-height: 1.2em;
+    /*font-size: 0.85em;*/
+    line-height: 1.4em;
+    color: rgb(70, 122, 163);
 }
 
 .main h6 em {
-    line-height: 1.3em;
-    margin-top: 1em;
-    padding-right: 1em;
-    font-size: 0.9em;
-    font-weight: 400;
-    color: rgb(70, 122, 163);
+    font-weight: 500;
+    font-size: 0.85em;
+    /*font-weight: 600;*/
 }
 
 .main h2 + p em {
@@ -120,16 +126,16 @@ footer a:hover {
 }
 
 .main ul {
-    line-height: 1em;
+    /*line-height: 1em;*/
 }
 
 .col > h2:first-child {
     margin-top: 0;
 }
 
-.col h4 {
-    margin-top: 5px;
-}
+/*.col h4 {*/
+    /*margin-top: 5px;*/
+/*}*/
 
 /* Typographic defaults */
 h1, h2, h3, h4, h5, h6 {
@@ -154,9 +160,9 @@ h2 {
 
 p {
     text-align: justify;
-    font-family: 'Fira sans', sans-serif;
-    font-weight: 200;
+    /*font-weight: 200;*/
     font-size: 0.8em;
+    margin-bottom: 1em;
 }
 
 dl {
@@ -209,10 +215,10 @@ ul li {
     text-align: left;
     list-style-type: circle;
     /* padding-left: 0.2em; */
-    line-height: 1.3em;
+    /*line-height: 1.3em;*/
     display: list-item;
-    font-weight: 200;
-    font-size: 0.85em;
+    /*font-weight: 200;*/
+    font-size: 0.75em;
     padding-bottom: 0.1em;
 }
 
@@ -326,12 +332,26 @@ ul li {
 
 /* Print specific stuff (mainly for pdf generation) */
 @media print {
-    /*html, body {*/
-        /*font-size: 0.85em;*/
-    /*}*/
+    body {
+        font-size: .8em;
+        background: none;
+        overflow-x: hidden;
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
 
     .face {
         width: 8em;
+    }
+
+    .main h6 {
+        line-height: 1.5em;
+        margin-top: .5em;
     }
 
     .header {
@@ -375,23 +395,9 @@ ul li {
         display: none;
     }
 
-    html, body {
-        background: none;
-        overflow-x: hidden;
-    }
-
-    body {
-        width: 100%;
-        height: 100%;
-        margin-top: 0;
-    }
 
     .main h2 {
         margin: 2em 0 0.4em;
-    }
-
-    .main h6 {
-        margin-bottom: 0;
     }
 
     .main, .footer {

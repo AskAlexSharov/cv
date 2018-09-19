@@ -24,7 +24,7 @@ html {
 
 body {
     margin: 0;
-    line-height: 1;
+    /*line-height: 1;*/
     font-family: sans-serif;
 }
 
@@ -54,17 +54,6 @@ dl {
 
 dd {
     margin-left: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-top: 1.6em;
-    margin-bottom: 0.1em;
-    font-size: inherit;
 }
 
 blockquote {
@@ -192,58 +181,59 @@ button {
 
 }
 
-body {
-    font-family: var(--sans);
-    font-weight: var(--bookweight);
-}
+/*body {*/
+    /*font-family: var(--sans);*/
+    /*font-weight: var(--bookweight);*/
+/*}*/
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: var(--boldweight);
+    /*font-weight: var(--boldweight);*/
     color: #000;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.1rem;
+    margin-top: .8em;
 }
 
-p {
-    margin: 0.9rem 0;
-}
+/*p {*/
+    /*margin: 0.9rem 0;*/
+/*}*/
 
-h1 {
-    font-size: 2rem;
-}
+/*h1 {*/
+    /*font-size: 2rem;*/
+/*}*/
 
-h2 {
-    font-size: 1.2rem;
-}
+/*h2 {*/
+    /*font-size: 1.2rem;*/
+/*}*/
 
-h3 {
-    font-size: 1rem;
-}
+/*h3 {*/
+    /*font-size: 1rem;*/
+/*}*/
 
-h4 {
-    font-size: 0.8rem;
-}
+/*h4 {*/
+    /*font-size: 0.8rem;*/
+/*}*/
 
-h5 {
-    font-size: 0.7rem;
-}
+/*h5 {*/
+    /*font-size: 0.7rem;*/
+/*}*/
 
-h6 {
-    font-size: 0.7rem;
-}
+/*h6 {*/
+    /*font-size: 0.7rem;*/
+/*}*/
 
-p {
-    font-family: var(--sans);
-    font-weight: var(--bookweight);
-}
+/*p {*/
+    /*font-family: var(--sans);*/
+    /*font-weight: var(--bookweight);*/
+/*}*/
 
-label {
-    display: block;
-    font-family: var(--sans);
-    font-weight: var(--heavyweight);
-    font-size: 0.8rem;
-    color: #000;
-    margin-bottom: 0.5rem;
-}
+/*label {*/
+    /*display: block;*/
+    /*font-family: var(--sans);*/
+    /*font-weight: var(--heavyweight);*/
+    /*font-size: 0.8rem;*/
+    /*color: #000;*/
+    /*margin-bottom: 0.5rem;*/
+/*}*/
 
 /* -- Vars
    ––––––– */
@@ -713,7 +703,7 @@ All Utility classes go here.
    –––––––––––––– */
 
 /* WIDTHS, HEIGHTS & OFFSETS */
-
+/*
 .-w-10 {
     width: 10%;
 }
@@ -1935,6 +1925,7 @@ All Utility classes go here.
         grid-column: 1 / -1 !important;
     }
 }
+*/
 
 .-span-cols-1 {
     width: 10%;
@@ -2178,38 +2169,38 @@ All Utility classes go here.
 
 /* -- Positioning
    –––––––––––––– */
+/*
+.-pos-fixed, .-fixed {
+    position: fixed;
+}
 
-/*.-pos-fixed, .-fixed {*/
-    /*position: fixed;*/
-/*}*/
+.-pos-absolute {
+    position: absolute;
+}
 
-/*.-pos-absolute {*/
-    /*position: absolute;*/
-/*}*/
+.-pos-relative {
+    position: relative;
+}
 
-/*.-pos-relative {*/
-    /*position: relative;*/
-/*}*/
+ POSITIONING HELPERS
 
-/* POSITIONING HELPERS */
+.-t-0, .-top-0 {
+    top: 0;
+}
 
-/*.-t-0, .-top-0 {*/
-    /*top: 0;*/
-/*}*/
+.-r-0, .-right-0 {
+    right: 0;
+}
 
-/*.-r-0, .-right-0 {*/
-    /*right: 0;*/
-/*}*/
+.-b-0, .-bottom-0 {
+    bottom: 0;
+}
 
-/*.-b-0, .-bottom-0 {*/
-    /*bottom: 0;*/
-/*}*/
+.-l-0, .-left-0 {
+    left: 0;
+}
 
-/*.-l-0, .-left-0 {*/
-    /*left: 0;*/
-/*}*/
-
-/* .-top-half: 0.5rem;
+ .-top-half: 0.5rem;
 
 .-top-1: 1rem;
 
@@ -2260,6 +2251,7 @@ All Utility classes go here.
 /* -- Spacing
    –––––––––– */
 
+/*
 .-m-all {
     margin: 1rem;
 }
@@ -2471,9 +2463,10 @@ All Utility classes go here.
 .-m-left-5 {
     margin-left: 5rem;
 }
+*/
 
 /* padding */
-
+/*
 .-p-all-half {
     padding: 0.5rem;
 }
@@ -2547,9 +2540,9 @@ All Utility classes go here.
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
-
+*/
 /* margin */
-
+/*
 .-m-all-half {
     margin: 0.5rem;
 }
@@ -2623,6 +2616,7 @@ All Utility classes go here.
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
+*/
 
 /* Text classes
    –––––––––––– */
@@ -2656,26 +2650,26 @@ All Utility classes go here.
 .-nocase {
     text-transform: none;
 }
+/*
+.-lineheight-1 {
+    line-height: 1em;
+}
 
-/*.-lineheight-1 {*/
-    /*line-height: 1em;*/
-/*}*/
+.-lineheight-1-2 {
+    line-height: 1.2em;
+}
 
-/*.-lineheight-1-2 {*/
-    /*line-height: 1.2em;*/
-/*}*/
+.-lineheight-1-3 {
+    line-height: 1.3em;
+}
 
-/*.-lineheight-1-3 {*/
-    /*line-height: 1.3em;*/
-/*}*/
+.-lineheight-1-4 {
+    line-height: 1.4em;
+}
 
-/*.-lineheight-1-4 {*/
-    /*line-height: 1.4em;*/
-/*}*/
-
-/*.-lineheight-1-5 {*/
-    /*line-height: 1.5rem;*/
-/*}*/
+.-lineheight-1-5 {
+    line-height: 1.5rem;
+}
 
 .-text-left {
     text-align: left;
@@ -2688,107 +2682,109 @@ All Utility classes go here.
 .-text-right {
     text-align: right;
 }
+*/
 
 /* -- Typesizes
    –––––––––––– */
+/*
+.-rem-3 {
+    font-size: 3rem;
+}
 
-/*.-rem-3 {*/
-    /*font-size: 3rem;*/
-/*}*/
+.-rem-2 {
+    font-size: 2rem;
+}
 
-/*.-rem-2 {*/
-    /*font-size: 2rem;*/
-/*}*/
+.-rem-1-75 {
+    font-size: 1.75rem;
+}
 
-/*.-rem-1-75 {*/
-    /*font-size: 1.75rem;*/
-/*}*/
+.-rem-1-5 {
+    font-size: 1.5rem;
+}
 
-/*.-rem-1-5 {*/
-    /*font-size: 1.5rem;*/
-/*}*/
+.-rem-1-2 {
+    font-size: 1.2rem;
+}
 
-/*.-rem-1-2 {*/
-    /*font-size: 1.2rem;*/
-/*}*/
+.-rem-1 {
+    font-size: 1rem;
+}
 
-/*.-rem-1 {*/
-    /*font-size: 1rem;*/
-/*}*/
+.-rem-09 {
+    font-size: 0.9rem;
+}
 
-/*.-rem-09 {*/
-    /*font-size: 0.9rem;*/
-/*}*/
+.-rem-085 {
+    font-size: 0.85rem;
+}
 
-/*.-rem-085 {*/
-    /*font-size: 0.85rem;*/
-/*}*/
+.-rem-08 {
+    font-size: 0.8rem;
+}
 
-/*.-rem-08 {*/
-    /*font-size: 0.8rem;*/
-/*}*/
+.-rem-075 {
+    font-size: 0.7rem;
+}
 
-/*.-rem-075 {*/
-    /*font-size: 0.7rem;*/
-/*}*/
+.-rem-07 {
+    font-size: 0.7rem;
+}
 
-/*.-rem-07 {*/
-    /*font-size: 0.7rem;*/
-/*}*/
+.-rem-06 {
+    font-size: 0.6rem;
+}
 
-/*.-rem-06 {*/
-    /*font-size: 0.6rem;*/
-/*}*/
+ Ems
 
-/* Ems */
+.-em-3 {
+    font-size: 3em;
+}
 
-/*.-em-3 {*/
-    /*font-size: 3em;*/
-/*}*/
+.-em-2 {
+    font-size: 2em;
+}
 
-/*.-em-2 {*/
-    /*font-size: 2em;*/
-/*}*/
+.-em-1-75 {
+    font-size: 1.75em;
+}
 
-/*.-em-1-75 {*/
-    /*font-size: 1.75em;*/
-/*}*/
+.-em-1-5 {
+    font-size: 1.5em;
+}
 
-/*.-em-1-5 {*/
-    /*font-size: 1.5em;*/
-/*}*/
+.-em-1-2 {
+    font-size: 1.2em;
+}
 
-/*.-em-1-2 {*/
-    /*font-size: 1.2em;*/
-/*}*/
+.-em-1 {
+    font-size: 1em;
+}
 
-/*.-em-1 {*/
-    /*font-size: 1em;*/
-/*}*/
+.-em-09 {
+    font-size: 0.9em;
+}
 
-/*.-em-09 {*/
-    /*font-size: 0.9em;*/
-/*}*/
+.-em-085 {
+    font-size: 0.85em;
+}
 
-/*.-em-085 {*/
-    /*font-size: 0.85em;*/
-/*}*/
+.-em-08 {
+    font-size: 0.8em;
+}
 
-/*.-em-08 {*/
-    /*font-size: 0.8em;*/
-/*}*/
+.-em-075 {
+    font-size: 0.7em;
+}
 
-/*.-em-075 {*/
-    /*font-size: 0.7em;*/
-/*}*/
+.-em-07 {
+    font-size: 0.7em;
+}
 
-/*.-em-07 {*/
-    /*font-size: 0.7em;*/
-/*}*/
-
-/*.-em-06 {*/
-    /*font-size: 0.6em;*/
-/*}*/
+.-em-06 {
+    font-size: 0.6em;
+}
+*/
 
 .unsupported, .ie11, .ie10, .ie678 {
     display: none;
