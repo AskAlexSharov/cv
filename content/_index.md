@@ -5,11 +5,11 @@ title: CV
 
 {{% face %}} Had great mix of Programmer, SRE and VP of Engineering workloads. 
 It required permanent improvement of Hard and Soft skill set. 
-In one hand I'm Polyglot with administration skills of different DB's, MQ and Search Engines, 
-in another - lead that did speed-up release processes, built geo-distributed teams, worked on business priorities. 
+In one hand I'm Polyglot-Programmer with administration skills of different DB's, MQ and Search Engines, 
+in another - lead that built geo-distributed teams, worked on business priorities, did speed-up release processes. 
 
-During 5 years with my current company I passed long way from small-funded startup to $5B part of Alibaba Group. 
-Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech challenges and remote work.
+During 5 years with my current company I passed long way from small-funded startup to $5B part of Alibaba Group.
+Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech challenges and remote work. 
 
 {{% grid %}}
 
@@ -19,30 +19,30 @@ Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech c
 ### Lazada | Alibaba Group (400 engineers) 
 ###### *Jun 2017 - Present: VP of Engineering*
 
-* Prepare core services for "black friday". 100% uptime - [$123M GMV (3M orders)](http://markets.businessinsider.com/news/stocks/Southeast-Asia-s-eCommerce-leader-Lazada-smashes-sales-record-1007843779)
-* Moved Golang services to internal Kubernetes cloud
+* Prepare core services for "black friday": [100% uptime, $123M GMV, 3M orders](http://markets.businessinsider.com/news/stocks/Southeast-Asia-s-eCommerce-leader-Lazada-smashes-sales-record-1007843779)
+* Moved Go services to internal Kubernetes
 * Lead Go/PHP teams and Python QA (~20 people in Russia and ~20 in Vietnam)
-* Acquisition by Alibaba Group - switch to Ali platform (Java stack and AliCloud)
+* Switch to Alibaba Group platform: Java + AliCloud
 
 ###### *Jul 2015 – Jun 2017: Engineering Manager (core services)*
 
-* Changed logic of image resize - reduced HDD usage from 48Tb to 4Tb
-* Tune MySql while company growth to ~100Million products
-* Implemented Golang services: Products DB/Search, Image Resizing/Storage
-* Introduced regular Sprints planning + Retrospectives. Result - 3-6 releases/week
+* New logic of image resize - reduced HDD from 48Tb to 4Tb
+* Tune MySql while growth to ~100M products
+* Implement Go services: Products DB/Search, Image Resizing/Storage
+* Introduced Sprints + Retrospectives. Result - 3-6 releases/week
 
 ###### *Avg 2013 – Jul 2015: Site Reliability Engineering Team Lead*
 
-* Single point of failure elimination: setup clusters of Aerospike, ElasticSearch, Vitess for MySql sharding.
-* Performance: cache hit-rates, PHP profiling, MQ setup and utilizing, monitoring, MySql slow-queries statistic
+* Single point of failure elimination: configure Aerospike, ElasticSearch, Vitess (sharding)
+* Performance: cache hit-rates, PHP profiling, MQ throughput, monitoring, MySql slow-queries
 * Migration from RackSpace to 7 own DataCenters (6 countries)
 
 ### Rocket Internet (20 engineers)
 ###### *Feb 2012 – Jun 2013: Senior Software Engineer*
 
-* E-Commerce + logistic, ~50.000 unique users per day
-* Phonetic and morphology analysis for Russian lang - Sphinx(c++ search engine)
-* UI for facets management. Deep collaboration with Marketing department
+* E-Commerce + logistic, ~50.000 unique users/day
+* Phonetic and morphology for Russian lang - Sphinx(c++ search engine)
+* Facets management UI. Marketing department deep collaboration
 * Partners/billings/email/sms services integration
 
 ### Art Project (7 engineers)
@@ -54,11 +54,12 @@ Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech c
 ### 2 other small companies
 ###### *Jun 2010 – Jun 2011: PHP Developer*
 
-* Yii framework web dev. Frontend, Backend and Admin Panel
+* Full-Stack - Yii/JS web dev
 
 {{% /column %}}
 
 {{% column sidebar -span-cols-3 -p-left-1 %}}
+
 #### Education 
   * Master Degree. Math and System Programming. Compilers and interpreters. Moscow State University.  
 

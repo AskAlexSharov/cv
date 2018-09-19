@@ -326,9 +326,9 @@ ul li {
 
 /* Print specific stuff (mainly for pdf generation) */
 @media print {
-    html, body {
-        font-size: 0.85em;
-    }
+    /*html, body {*/
+        /*font-size: 0.85em;*/
+    /*}*/
 
     .face {
         width: 8em;
