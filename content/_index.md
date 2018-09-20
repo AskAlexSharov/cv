@@ -66,7 +66,7 @@ Full-of-energy to learn Blockchain in-depth, Starving for complex tech challenge
 {{% divider %}}
 
 ##### Fluent with
-  * Go, JS, PHP 
+  * Go, PHP 
   * Nginx
   * Docker
   * ElasticSearch
