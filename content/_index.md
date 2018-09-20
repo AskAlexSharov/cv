@@ -29,14 +29,14 @@ Full-of-energy to learn Blockchain in-depth, Starving for complex tech challenge
 ###### Engineering Manager (core services): *Jul 2015 – Jun 2017*
 
 * New logic of image resize - reduced HDD from 48Tb to 4Tb
-* Tune MySql while growth to ~100M products
+* Tune MySql while growth to 100M products
 * Go services dev: Products DB/Search, Image Resizing/Storage
 * Introduced Sprints + Retrospectives, 3-6 releases/week
 
 ###### Site Reliability Engineering Team Lead: *Avg 2013 – Jul 2015*
 
-* Single point of failure elimination: configure Aerospike, ElasticSearch, Youtube Vitess
-* Performance: cache hit-rates, PHP profiling, MQ throughput, monitoring, MySql slow-queries
+* Single point of failure elimination: setup Aerospike, ElasticSearch, Youtube Vitess
+* Performance: cache hit-rate, PHP profiling, MQ throughput, MySql slow-queries
 * Migration from RackSpace to 7 own DataCenters, 6 countries
 
 #### Rocket Internet (20 engineers)
