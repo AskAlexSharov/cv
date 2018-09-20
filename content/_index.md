@@ -67,13 +67,13 @@ Full-of-energy to learn Blockchain in-depth, Starving for complex tech challenge
 
 ##### Fluent with
   * Go, JS, PHP 
-  * Oracle Certified [Java 8 Professional](https://www.youracclaim.com/badges/e729c951-ad94-469b-9d53-6df58d6a8f32/public_url)
   * Nginx
   * Docker
   * ElasticSearch
   * MySql
 
 ##### Familiar with
+  * Java [Oracle Certified](https://www.youracclaim.com/badges/e729c951-ad94-469b-9d53-6df58d6a8f32/public_url)
   * Ethereum Swarm
   * Angular, Ionic and FireBase
   * Ansible
