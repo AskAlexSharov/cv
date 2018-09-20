@@ -21,19 +21,19 @@ Full-of-energy to learn Blockchain in-depth, Starving for complex tech challenge
 #### Lazada | Alibaba Group (400 engineers) 
 ###### VP of Engineering: *Jun 2017 - Present*
 
-* Tune Go services for "black friday": [100% uptime, $123M GMV, 3M orders](http://markets.businessinsider.com/news/stocks/Southeast-Asia-s-eCommerce-leader-Lazada-smashes-sales-record-1007843779)
-* Lead Go/PHP/Python teams: 30 people in Russia/Vietnam
+* Tune Go services for "black friday": [100% uptime, $123M GMV, 3M orders](https://markets.businessinsider.com/news/stocks/Southeast-Asia-s-eCommerce-leader-Lazada-smashes-sales-record-1007843779)
+* Lead Go/PHP/Python teams in Russia/Vietnam: 30 people 
 * Switch to Alibaba Group platform: Java + AliCloud
 * Lead "Data team" during [Daraz acquisition](https://pandaily.com/alibaba-buys-daraz-after-lazada-currently-covering-11-se-asian-countries)
 
-###### Engineering Manager (core services): *Jul 2015 – Jun 2017*
+###### Go Services Team Lead: *Jul 2015 – Jun 2017*
 
 * New logic of image resize - reduced HDD from 48Tb to 4Tb
 * Tune MySql while growth to 100M products
 * Go services dev: Products DB/Search, Image Resizing/Storage
 * Introduced Sprints + Retrospectives, 3-6 releases/week
 
-###### Site Reliability Engineering Team Lead: *Avg 2013 – Jul 2015*
+###### Site Reliability Engineer: *Avg 2013 – Jul 2015*
 
 * Single point of failure elimination: setup Aerospike, ElasticSearch, Youtube Vitess
 * Performance: cache hit-rate, PHP profiling, MQ throughput, MySql slow-queries
