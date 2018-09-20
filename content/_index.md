@@ -73,8 +73,8 @@ Full-of-energy to learn Blockchain in-depth, Starving for complex tech challenge
   * MySql
 
 ##### Familiar with
-  * Java [Oracle Certified](https://www.youracclaim.com/badges/e729c951-ad94-469b-9d53-6df58d6a8f32/public_url)
   * Ethereum Swarm
+  * Java [Oracle Certified](https://www.youracclaim.com/badges/e729c951-ad94-469b-9d53-6df58d6a8f32/public_url)
   * Angular, Ionic and FireBase
   * Ansible
   * Etcd/Consul
