@@ -8,5 +8,5 @@ pdf: build
 deploy: build
 	firebase deploy
 	rm -f static/cv.pdf
-	# node ./generatepdf.js
-	# firebase deploy
+	node ./generatepdf.js
+	firebase deploy
