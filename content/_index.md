@@ -9,7 +9,9 @@ In one hand I'm Polyglot-Programmer with administration skills of different DB's
 in another - lead that built geo-distributed teams, worked on business priorities, did speed-up release processes. 
 
 During 5 years with my current company I passed long way from small-funded startup to $5B part of Alibaba Group.
-Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech challenges and remote work. 
+
+Now - researching Ethereum Swarm. 
+Full-of-energy to learn Blockchain in-depth, Starving for complex tech challenges and remote work.
 
 {{% grid %}}
 
@@ -19,10 +21,10 @@ Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech c
 #### Lazada | Alibaba Group (400 engineers) 
 ###### VP of Engineering: *Jun 2017 - Present*
 
-* Prepare core services for "black friday": [100% uptime, $123M GMV, 3M orders](http://markets.businessinsider.com/news/stocks/Southeast-Asia-s-eCommerce-leader-Lazada-smashes-sales-record-1007843779)
-* Moved Go services to internal Kubernetes
+* Tune Go services for "black friday": [100% uptime, $123M GMV, 3M orders](http://markets.businessinsider.com/news/stocks/Southeast-Asia-s-eCommerce-leader-Lazada-smashes-sales-record-1007843779)
 * Lead Go/PHP/Python teams: 30 people in Russia/Vietnam
 * Switch to Alibaba Group platform: Java + AliCloud
+* Lead "Data team" during [Daraz acquisition](https://pandaily.com/alibaba-buys-daraz-after-lazada-currently-covering-11-se-asian-countries)
 
 ###### Engineering Manager (core services): *Jul 2015 – Jun 2017*
 
@@ -38,10 +40,10 @@ Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech c
 * Migration from RackSpace to 7 own DataCenters, 6 countries
 
 #### Rocket Internet (20 engineers)
-###### Senior Software Engineer: *Feb 2012 – Jun 2013*
+###### Senior PHP Developer: *Feb 2012 – Jun 2013*
 
-* Phonetic and morphology for RU lang - Sphinx Search engine
-* Marketing department deep collaboration
+* Focus on Marketing department success 
+* Develop most of Search-related features 
 
 #### Art Project (7 engineers)
 ###### Team Lead: *Feb 2011 – Feb 2012*
@@ -52,7 +54,7 @@ Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech c
 #### 2 other small companies
 ###### PHP Developer: *Jun 2010 – Jun 2011*
 
-* Full-Stack - Yii/JS web dev
+* Full-Stack - Yii/JS dev
 
 {{% /column %}}
 
@@ -64,18 +66,18 @@ Now I'm full-of-energy to learn Blockchain in-depth, Starving for complex tech c
 {{% divider %}}
 
 ##### Fluent with
-  * Go, JS, PHP, TypeScript 
+  * Go, JS, PHP 
   * Oracle Certified [Java 8 Professional](https://www.youracclaim.com/badges/e729c951-ad94-469b-9d53-6df58d6a8f32/public_url) and [Associate](https://www.youracclaim.com/badges/3c1dcd16-2dfa-434a-aaea-0d1d523f966e/public_url)
-  * Nginx/HAProxy, Docker/Kuber
-  * MySql/Mongo, Etcd/Consul
-  * RabbitMQ/Kafka
-  * ElasticSearch/Sphinx
-  * Ansible/Puppet
+  * Nginx
+  * Docker
+  * ElasticSearch
+  * MySql
 
 ##### Familiar with
-  * FP - Elm, Haskell
-  * Frontend - Angular, React, Vue, Ionic and FireBase
-
+  * Ethereum Swarm
+  * Angular, Ionic and FireBase
+  * Ansible
+  * Etcd/Consul
 
 {{% divider %}}
 
