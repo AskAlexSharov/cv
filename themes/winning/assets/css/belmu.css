@@ -192,6 +192,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: .8em;
 }
 
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 /*p {*/
     /*margin: 0.9rem 0;*/
 /*}*/

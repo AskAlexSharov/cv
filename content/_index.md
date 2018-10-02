@@ -55,7 +55,7 @@ Code example: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/1
 #### 2 other small companies
 ###### PHP Developer: *Jun 2010 – Jun 2011*
 
-* Full-Stack - Yii/JS dev
+* Full-Stack - Yii
 
 {{% /column %}}
 
