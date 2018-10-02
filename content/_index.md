@@ -91,7 +91,6 @@ Code example: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/1
 
 ##### Links
   * [github.com/nizsheanez](http://github.com/nizsheanez)
-  * [gitlab.com/nizsheanez](https://gitlab.com/nizsheanez)
   * [linkedin.com/in/alex-sharov](https://www.linkedin.com/in/alex-sharov/)
   * [angel.co/alexey-sharov](https://angel.co/alexey-sharov)
 
