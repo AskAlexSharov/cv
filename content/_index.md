@@ -10,8 +10,9 @@ in another - lead that built geo-distributed teams, worked on business prioritie
 
 During 5 years with my current company I passed long way from small-funded startup to $5B part of Alibaba Group.
 
-Now - researching Ethereum Swarm. 
 Full-of-energy to learn Blockchain in-depth, Starving for complex tech challenges and remote work.
+
+Code example: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/17782)
 
 {{% grid %}}
 
