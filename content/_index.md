@@ -3,7 +3,9 @@ title: CV
 ---
 ## Alexey Sharov
 
-{{% face %}} Had great mix of Programmer, SRE and VP of Engineering workloads. 
+{{% face %}} 
+
+Had great mix of Programmer, SRE and VP of Engineering workloads. 
 It required permanent improvement of Hard and Soft skill set. 
 In one hand I'm Polyglot-Programmer with administration skills of different DB's, MQ and Search Engines, 
 in another - lead that built geo-distributed teams, worked on business priorities, did speed-up release processes. 
@@ -19,7 +21,7 @@ Code example: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/1
 {{% column experience -span-cols-7 %}}
 ##### Experience
 
-#### Lazada | Alibaba Group (400 engineers) 
+##### Alibaba Group | Lazada (400 engineers) 
 ###### VP of Engineering: *Jun 2017 - Present*
 
 * Tune Go services for "black friday": [100% uptime, $123M GMV, 3M orders](https://markets.businessinsider.com/news/stocks/Southeast-Asia-s-eCommerce-leader-Lazada-smashes-sales-record-1007843779)
@@ -40,19 +42,19 @@ Code example: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/1
 * Performance: cache hit-rate, PHP profiling, MQ throughput, MySql slow-queries
 * Migration from RackSpace to 7 own DataCenters, 6 countries
 
-#### Rocket Internet (20 engineers)
+##### Rocket Internet | Mebelrama (20 engineers)
 ###### Senior PHP Developer: *Feb 2012 – Jun 2013*
 
 * Focus on Marketing department success 
 * Develop most of Search-related features 
 
-#### Art Project (7 engineers)
+##### Art Project (7 engineers)
 ###### Team Lead: *Feb 2011 – Feb 2012*
 
 * Young web-studio, I introduced processes: git, tickets, PRD's, Interviews. 
 * Administrate of Debian servers for all clients
 
-#### 2 other small companies
+##### 2 other small companies
 ###### PHP Developer: *Jun 2010 – Jun 2011*
 
 * Full-Stack - Yii

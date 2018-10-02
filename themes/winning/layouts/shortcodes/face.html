@@ -1,5 +1,5 @@
 <span class="face">
-{{ range first 1 (.Page.Resources.ByType "image") }}
+    {{ range first 1 (.Page.Resources.ByType "image") }}
     {{ $imageXL := .Resize "190x q90" }}
     {{ $imageLG := .Resize "190x q90" }}
     {{ $imageMD := .Resize "190x q90" }}
@@ -9,9 +9,7 @@
         <source srcset="{{ $imageLG.RelPermalink }}" media="(min-width: 62em)">
         <source srcset="{{ $imageMD.RelPermalink }}" media="(min-width: 48em)">
         <source srcset="{{ $imageSM.RelPermalink }}" media="(min-width: 34em)">
-        <img alt="Face image"
-             src="{{ $imageSM.RelPermalink | absURL }}"
-        />
+        <img alt="Face image" src="{{ $imageSM.RelPermalink | absURL }}" />
     </picture>
-{{ end }}
+    {{ end }}
 </span>

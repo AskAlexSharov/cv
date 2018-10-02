@@ -7,8 +7,9 @@ var options = {
         "top": "1cm",            // default is 0, units: mm, cm, in, px
         "right": "2cm",
         "bottom": "2cm",
-        "left": "2.5cm"
-    }
+        "left": "2.5cm",
+    },
+    "zoomFactor": "0.55"
 };
 
 pdf.create(html, options).toFile('./static/cv.pdf', function (err, res) {
