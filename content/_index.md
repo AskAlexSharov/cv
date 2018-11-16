@@ -5,16 +5,16 @@ title: CV
 
 {{% face %}} 
 
-Had great mix of Programmer, SRE and VP of Engineering workloads. 
+Had mix of Programmer, SRE and VP of Engineering workloads. 
 It required permanent improvement of Hard and Soft skill set. 
-In one hand I'm Polyglot-Programmer with administration skills of different DB's, MQ and Search Engines, 
-in another - lead that built geo-distributed teams, worked on business priorities, did speed-up release processes. 
+In one hand I'm Polyglot-Programmer, 
+in another - lead geo-distributed teams, worked on business priorities, speed-up release processes. 
 
-During 5 years with my current company I passed long way from small-funded startup to $5B part of Alibaba Group.
+During 5 years with current company I passed long way from small-funded startup to $5B part of Alibaba Group.
 
-Full-of-energy to learn Blockchain in-depth, Starving for complex tech challenges and remote work.
+Starving for new tech challenges. 
 
-Code example: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/17782)
+Code examples: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/17782), [Ethereum PR-18083](https://github.com/ethereum/go-ethereum/pull/18083)
 
 {{% grid %}}
 
