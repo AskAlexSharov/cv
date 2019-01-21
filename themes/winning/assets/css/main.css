@@ -103,7 +103,7 @@ h5 {
     margin-bottom: .1em;
 }
 
-#experience{
+#experience {
     font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -183,8 +183,9 @@ dl dd {
 }
 
 ul {
-    padding-left: 1em;
+    padding-inline-start: 30px;
     margin-bottom: .2em;
+    padding-top: 0.1em;
 }
 
 ul li {

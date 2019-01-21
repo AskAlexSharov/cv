@@ -19,7 +19,6 @@ Code examples: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/
 {{% grid %}}
 
 {{% column experience -span-cols-7 %}}
-##### Experience
 
 ##### Alibaba Group | Lazada (400 engineers) 
 ###### VP of Engineering: *Jun 2017 - Present*
@@ -31,9 +30,9 @@ Code examples: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/
 
 ###### Go Services Team Lead: *Jul 2015 – Jun 2017*
 
-* New logic of image resize - reduced HDD from 48Tb to 4Tb
-* Tune MySql while growth to 100M products
+* Image resize rewrite - reduced HDD from 48Tb to 4Tb
 * Go services dev: Products DB/Search, Image Resizing/Storage
+* Tune MySql while growth to 100M products
 * Introduced Sprints + Retrospectives, 3-6 releases/week
 
 ###### Site Reliability Engineer: *Avg 2013 – Jul 2015*
@@ -54,34 +53,33 @@ Code examples: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/
 * Young web-studio, I introduced processes: git, tickets, PRD's, Interviews. 
 * Administrate of Debian servers for all clients
 
-##### 2 other small companies
-###### PHP Developer: *Jun 2010 – Jun 2011*
-
-* Full-Stack - Yii
+##### 3 other companies
+###### Yii Web Dev: *Jun 2010 – Jun 2011*
 
 {{% /column %}}
 
 {{% column sidebar -span-cols-3 %}}
 
 ##### Education 
-  * Master Degree. Math and System Programming. Compilers and interpreters. Moscow State University  
+  * Master Degree. Moscow State University. [Computational Math and Cybernetics](https://www.msu.ru/en/admissions/general-programs/faculty-of-computational-mathematics-and-cybernetics.php)
 
 {{% divider %}}
 
 ##### Fluent with
   * Go, PHP 
-  * Nginx
   * Docker
   * ElasticSearch
   * MySql
 
 ##### Familiar with
-  * Ethereum Swarm
   * Java [Oracle Certified](https://www.youracclaim.com/badges/e729c951-ad94-469b-9d53-6df58d6a8f32/public_url)
-  * Angular, Ionic and FireBase
+  * AWS, AlibabaCloud
+  * Vitess
   * Ansible
-  * Etcd/Consul
-
+  * Etcd, Consul
+  * Nginx
+  * Ethereum, Swarm
+  
 {{% divider %}}
 
 ##### Communication
@@ -93,12 +91,11 @@ Code examples: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/
 
 ##### Links
   * [github.com/nizsheanez](http://github.com/nizsheanez)
-  * [linkedin.com/in/alex-sharov](https://www.linkedin.com/in/alex-sharov/)
-  * [angel.co/alexey-sharov](https://angel.co/alexey-sharov)
+  * [linkedin.com/in/AskAlexSharov](https://www.linkedin.com/in/AskAlexSharov/)
+  * [angel.co/AskAlexSharov](https://angel.co/AskAlexSharov)
 
 ##### Contacts
-  * [www.pismeco@gmail.com](mailto:www.pismeco@gmail.com)
-  * skype: nizsheanez
+  * Skype: AskAlexSharov@gmail.com
 
 {{% /column %}}
 {{% /grid %}}
