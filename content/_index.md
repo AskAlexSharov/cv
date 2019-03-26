@@ -1,9 +1,10 @@
 ---
 title: CV
 ---
-## Alexey Sharov
 
 {{% face %}} 
+
+## Alexey Sharov
 
 Had mix of Programmer, SRE and VP of Engineering workloads. 
 It required permanent improvement of Hard and Soft skill set. 
@@ -14,7 +15,7 @@ During 5 years with current company I passed long way from small-funded startup 
 
 Starving for new tech challenges. 
 
-Code examples: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/17782), [Ethereum PR-18083](https://github.com/ethereum/go-ethereum/pull/18083)
+Recent Go contribution: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/17782), [Ethereum PR-18083](https://github.com/ethereum/go-ethereum/pull/18083)
 
 {{% grid %}}
 
@@ -67,15 +68,15 @@ Code examples: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/
 
 ##### Fluent with
   * Go, PHP 
-  * Docker
+  * MySql, Docker
   * ElasticSearch
-  * MySql
+  * Linux
 
 ##### Familiar with
+  * Haskell
   * Java [Oracle Certified](https://www.youracclaim.com/badges/e729c951-ad94-469b-9d53-6df58d6a8f32/public_url)
-  * AWS, AlibabaCloud
-  * Vitess
-  * Ansible
+  * AWS, AliCloud
+  * Vitess, Ansible
   * Etcd, Consul
   * Nginx
   * Ethereum, Swarm
@@ -90,7 +91,7 @@ Code examples: [Ethereum PR-17782](https://github.com/ethereum/go-ethereum/pull/
   * Karate, Guitar
 
 ##### Links
-  * [github.com/nizsheanez](http://github.com/nizsheanez)
+  * [github.com/AskAlexSharov](http://github.com/AskAlexSharov)
   * [linkedin.com/in/AskAlexSharov](https://www.linkedin.com/in/AskAlexSharov/)
   * [angel.co/AskAlexSharov](https://angel.co/AskAlexSharov)
 
