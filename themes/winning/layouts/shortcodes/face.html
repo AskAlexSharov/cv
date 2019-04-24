@@ -1,15 +1,35 @@
-<span class="face">
-    {{ range first 1 (.Page.Resources.ByType "image") }}
-    {{ $imageXL := .Resize "190x q90" }}
-    {{ $imageLG := .Resize "190x q90" }}
-    {{ $imageMD := .Resize "190x q90" }}
-    {{ $imageSM := .Resize "140x q90" }}
-    <picture>
-        <source srcset="{{ $imageXL.RelPermalink }}" media="(min-width: 75em)">
-        <source srcset="{{ $imageLG.RelPermalink }}" media="(min-width: 62em)">
-        <source srcset="{{ $imageMD.RelPermalink }}" media="(min-width: 48em)">
-        <source srcset="{{ $imageSM.RelPermalink }}" media="(min-width: 34em)">
-        <img alt="Face image" src="{{ $imageSM.RelPermalink | absURL }}" />
-    </picture>
-    {{ end }}
-</span>
+<div class="face">
+    <div>
+        <h5 style="margin-top: 0;">Alexey Sharov</h5>
+        <div style="color: #222;">HoChiMinh city, Vietnam</div>
+        <div style="color: #222;">AskAlexSharov@gmail.com</div>
+    </disv>
+    <div>
+        {{ range first 1 (.Page.Resources.ByType "image") }}
+            {{ $imageXL := .Resize "190x q90" }}
+            <img alt="Face image" src="{{ $imageXL.RelPermalink | absURL }}" />
+        {{ end }}
+    </div>
+</div>
+
+<!-- <div class="face">
+        <div>
+            <h5 style="text-align: left;margin-top: 0;">Alexey Sharov</h5>
+            <div style="text-align: left; color: #222;    font-size: .9em;">HoChiMinh city, Vietnam</div>
+            <div style="text-align: left; color: #222;font-size: .9em;">AskAlexSharov@gmail.com</div>
+            <br/>
+        </div>
+        {{ range first 1 (.Page.Resources.ByType "image") }}
+        {{ $imageXL := .Resize "190x q90" }}
+        {{ $imageLG := .Resize "190x q90" }}
+        {{ $imageMD := .Resize "190x q90" }}
+        {{ $imageSM := .Resize "140x q90" }}
+        <picture>
+            <source srcset="{{ $imageXL.RelPermalink }}" media="(min-width: 75em)">
+            <source srcset="{{ $imageLG.RelPermalink }}" media="(min-width: 62em)">
+            <source srcset="{{ $imageMD.RelPermalink }}" media="(min-width: 48em)">
+            <source srcset="{{ $imageSM.RelPermalink }}" media="(min-width: 34em)">
+            <img alt="Face image" src="{{ $imageSM.RelPermalink | absURL }}" />
+        </picture>
+        {{ end }}
+    </div>   -->
