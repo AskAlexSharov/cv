@@ -1,9 +1,7 @@
-<div class="face">
-    {{ range first 1 (.Page.Resources.ByType "image") }}
-        {{ $imageXL := .Resize "145x q90" }}
-        <img alt="Face image" src="{{ $imageXL.RelPermalink | absURL }}" />
-    {{ end }}
-</div>
+{{ range first 1 (.Page.Resources.ByType "image") }}
+{{ $imageXL := .Resize "190x q90" }}
+<img class="img-fluid img-thumbnail" alt="Face image" src="{{ $imageXL.RelPermalink | absURL }}" />
+{{ end }}
 
 <!-- 
 <div class="face">

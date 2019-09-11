@@ -3,14 +3,16 @@ title: CV
 ---
 
 {{% grid %}}
-
-{{% column f -span-cols-2 %}}
+{{% row %}}
+{{% column col-3 %}}
 {{%  face %}}
 {{% /column %}}
-{{% column self -span-cols-8 %}}
+
+{{% column col-9 %}}
 #### Alex Sharov
 26/11/1988   |   HoChiMinh city, Vietnam  |  AskAlexSharov@gmail.com
 {{%  divider %}}
+
 **What I have to offer**
 
 I have held responsible positions in a number of companies specialising in IT services as a systems administrator, tester and programmer. My practical experience includes systems administration, support, software development, testing, specifications, security policy and people management.
@@ -33,15 +35,22 @@ Math. Programming language theory.
 
 {{% /column %}}
 
-{{% /grid %}}
+{{% /row %}}
 
+
+{{% row %}}
 
 #### Experience
-{{% grid %}}
+{{% /row %}}
 
-{{% column place1 -span-cols-2 %}}
+{{% row %}}
+
+{{% column col-3 %}}
 ##### Staff Engineer
 ##### Alibaba P7 lvl
+
+{{% br %}}
+
 ###### 2017 - Present
 ###### Alibaba Group | Lazada 
 ###### eCommerce 
@@ -49,13 +58,16 @@ Math. Programming language theory.
 
 {{% /column %}}
 
-{{% column experience1 -span-cols-8 %}}
+{{% column col-9 %}}
 * Lead 10 Java/React developers in Vietnam. 
 * Lead Data migration during Aquisition of 2 companies: Daraz and RedMart
 * Lead PayPerClick Marketing and SEO automation domains: S2S, ProductFeeds, LandingPages, 
 {{% /column %}}
 
-{{% column place2 -span-cols-2 %}}
+{{% /row %}}
+
+{{% row %}}
+{{% column col-3 %}}
 ##### Team Lead, Go 
 ###### 2015 - 2017
 ###### Alibaba Group | Lazada 
@@ -63,7 +75,7 @@ Math. Programming language theory.
 
 {{% /column %}}
 
-{{% column experience2 -span-cols-8 %}}
+{{% column col-9 %}}
 **Lead early adoption of GO inside company**
 
 * Service for Products DB/Search. 
@@ -91,8 +103,11 @@ I participated in paid Percona's Audit - reviewed and controlled implementation 
 
 {{% /column %}}
 
+{{% /row %}}
 
-{{% column place3 -span-cols-2 %}}
+{{% row %}}
+
+{{% column  col-3 %}}
 ##### Site Reliability Engineer
 ###### 2013 – 2015 
 ###### Alibaba Group | Lazada
@@ -100,92 +115,107 @@ I participated in paid Percona's Audit - reviewed and controlled implementation 
 
 {{% /column %}}
 
-{{% column experience3 -span-cols-8 %}}
+{{% column  col-9 %}}
 * Migration from RackSpace to 7 own DataCenters in 6 countries
 * Single point of failure elimination: setup Aerospike, ElasticSearch clusters. Tune and growth ElasticSearch cluster (to 25 nodes)
 * Accidents investigation and prevention, PHP profiling, moving much logic background by RabbitMQ, MySql slow-queries optimization
 {{% /column %}}
 
+{{% /row %}}
 
+{{% row %}}
 
-{{% column place4 -span-cols-2 %}}
+{{% column  col-3 %}}
 ##### Senior Backend Engineer
 ###### 2012 – 2013
 ###### Rocket Internet | Mebelrama 
 ###### eCommerce
 {{% /column %}}
 
-{{% column experience4 -span-cols-8 %}}
+{{% column  col-9 %}}
 * Develop most of Search-related features
     * **Problem:** Solr had poor support of Russian language
     * **What was done:** Switched to SphinxSearch - implemented indexing and russian language support (soundex)
 * Marketing team success
 {{% /column %}}
+{{% /row %}}
 
+{{% row %}}
 
-{{% column place5 -span-cols-2 %}}
+{{% column col-3 %}}
 ##### Team Lead, Yii
 ###### 2011 – 2012 
 ###### Art Project 
 ###### Web-Studio
 {{% /column %}}
 
-{{% column experience5 -span-cols-8 %}}
+{{% column col-9 %}}
 * I introduced processes: git, tickets, PRD's, interviews
 * Simultaneously developed 3-4 websites
 * Administrate servers (Debian) for all clients
 {{% /column %}}
 
+{{% /row %}}
 
-{{% column place6 -span-cols-2 %}}
+{{% row %}}
+
+{{% column col-3 %}}
 ##### Full-Stack Web Dev, Yii
 ###### 2010 – 2011
 ###### 3 other companies 
 ###### Web-Studio
 {{% /column %}}
 
-{{% column experience6 -span-cols-8 %}}
+{{% column col-9 %}}
 * Different News and Business websites 
 {{% /column %}}
 
+{{% /row %}}
 
-{{% /grid %}}
-
+{{% row %}}
 #### Education 
+{{% /row %}}
 
-{{% grid %}}
-{{% column edu1 -span-cols-2 %}}
+{{% row %}}
+{{% column col-3 %}}
 ##### Computational Math and Compilers
 ###### 2008 - 2012
 {{% /column %}}
 
-{{% column edu2 -span-cols-8 %}}
+{{% column col-9 %}}
 
 Master Degree. Moscow State University, Russia, Moscow. 
 [link](https://www.msu.ru/en/admissions/general-programs/faculty-of-computational-mathematics-and-cybernetics.php)
 
 {{% /column %}}
-{{% /grid %}}
+{{% /row %}}
 
 
+{{% row %}}
 #### Certificates
+{{% /row %}}
 
-{{% grid %}}
-{{% column edu1 -span-cols-2 %}}
+{{% row %}}
+{{% column col-3 %}}
 
 ##### Oracle, Java SE 8 Programmer II
 ###### 2016
 
 {{% /column %}}
 
-{{% column edu2 -span-cols-8 %}}
+{{% column col-9 %}}
 Oracle Certified Professional, Java SE 8 Programmer II. 
 [link](https://www.youracclaim.com/badges/e729c951-ad94-469b-9d53-6df58d6a8f32/public_url)
 
 {{% /column %}}
-{{% /grid %}}
+{{% /row %}}
 
+{{% row %}}
 #### Open Source
+{{% /row %}}
+
+{{% row %}}
+{{% column col-12 %}}
 * Github accounts: http://github.com/AskAlexSharov and http://github.com/nizsheanez
 
 * Golang: 
@@ -210,13 +240,29 @@ Oracle Certified Professional, Java SE 8 Programmer II.
 * PHP web framework - Yii2: Maintaining 
 [yii2-json-rpc](https://github.com/nizsheanez/yii2-json-rpc) and 
 [yii2-asset-converter](https://github.com/nizsheanez/yii2-asset-converter) libraries 
+{{% /column %}}
+{{% /row %}}
 
+{{% row %}}
 #### Social Links
-  * [Linkedin](https://www.linkedin.com/in/AskAlexSharov)
-  * [Twitter](https://twitter.com/AskAlexSharov)
+{{% /row %}}
 
+{{% row %}}
+{{% column col-12 %}}
 
+[Linkedin](https://www.linkedin.com/in/AskAlexSharov),
+[Twitter](https://twitter.com/AskAlexSharov)
+
+{{% /column %}}
+{{% /row %}}
+
+{{% row %}}
 #### Skills
+{{% /row %}}
+
+{{% row %}}
+{{% column col-12 %}}
+
 {{% skill Go 100 %}}
 {{% skill PHP 100 %}}
 {{% skill MySql 100 %}}
@@ -229,6 +275,18 @@ Oracle Certified Professional, Java SE 8 Programmer II.
 {{% skill Haskell 60 %}}
 {{% skill AWS 60 %}}
 
-#### Hobbies
-  * Karate, Guitar
+{{% /column %}}
+{{% /row %}}
 
+
+{{% row %}}
+#### Hobbies
+{{% /row %}}
+
+{{% row %}}
+{{% column col-12 %}}
+Karate, Guitar
+{{% /column %}}
+{{% /row %}}
+
+{{% /grid %}}
