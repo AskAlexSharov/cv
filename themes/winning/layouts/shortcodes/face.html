@@ -1,16 +1,24 @@
 <div class="face">
+    {{ range first 1 (.Page.Resources.ByType "image") }}
+        {{ $imageXL := .Resize "145x q90" }}
+        <img alt="Face image" src="{{ $imageXL.RelPermalink | absURL }}" />
+    {{ end }}
+</div>
+
+<!-- 
+<div class="face">
     <div>
         <h5 style="margin-top: 0;">Alexey Sharov</h5>
         <div style="color: #222;">HoChiMinh city, Vietnam</div>
         <div style="color: #222;">AskAlexSharov@gmail.com</div>
-    </disv>
+    </div>
     <div>
         {{ range first 1 (.Page.Resources.ByType "image") }}
             {{ $imageXL := .Resize "190x q90" }}
             <img alt="Face image" src="{{ $imageXL.RelPermalink | absURL }}" />
         {{ end }}
     </div>
-</div>
+</div>   -->
 
 <!-- <div class="face">
         <div>

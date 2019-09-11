@@ -92,15 +92,18 @@ h3 {
 h4 {
     font-size: 1.2rem;
     font-weight: bold !important;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    display: block; 
+    /* border-bottom: solid 1px; */
+    background-color: #eee;
+    padding: 2px;
 }
 
-
 h5 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
     /*letter-spacing: 1px;*/
-    margin-top: .8em;
+    margin-top: .1em;
     margin-bottom: .1em;
 }
 
@@ -108,16 +111,24 @@ h6 {
     margin: 0 0 0 0;
     padding: 0;
     font-weight: bold;
-    /*font-size: 0.85em;*/
+    font-size: 0.8em;
     color: #467aa3;
 }
 
-h6 em {
-    font-weight: 500;
-    font-size: 0.85rem;
+h5 strong {
+    margin: 0 0 0 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 0.8em;
     color: #467aa3;
-    /*font-weight: 600;*/
 }
+
+/*h6 em {*/
+/*    font-weight: 500;*/
+/*    font-size: 0.85rem;*/
+/*    color: #467aa3;*/
+/*    !*font-weight: 600;*!*/
+/*}*/
 
 
 
@@ -178,20 +189,30 @@ dl dd {
 }
 
 ul {
-    padding-inline-start: 30px;
+    padding-inline-start: 20px;
     margin-bottom: .2em;
     padding-top: 0.1em;
 }
 
+
 ul li {
     text-align: left;
-    list-style-type: circle;
+    list-style-type: disc;
     /* padding-left: 0.2em; */
     /*line-height: 1.3em;*/
     display: list-item;
     /*font-weight: 200;*/
     /* font-size: 0.75em; */
     padding-bottom: 0.1em;
+}
+
+ul ul li {
+    list-style-type:  none;
+}
+ul ul li::before {
+    content: "-";
+    position: absolute;
+    margin-left: -15px;
 }
 
 
@@ -299,7 +320,7 @@ ul li {
     display: inline-block;
 }
 
-.experience ul li p {
+p {
     margin-bottom: 0.1em;
 }
 
@@ -345,7 +366,30 @@ ul li {
         font-weight: bold !important;
     }
 
+    h4 {
+        font-size: 1.2rem;
+        font-weight: bold !important;
+        /* text-decoration: underline; */
+        display: block; 
+        /* border-bottom: solid 1px; */
+        background-color: #eee;
+        padding: 2px;
+    }
+    
+    h5 {
+        font-size: 1rem;
+        font-weight: bold;
+        /*letter-spacing: 1px;*/
+        margin-top: .1em;
+        margin-bottom: .1em;
+    }
+    
+
     h6 {
+        color: #467aa3;
+    }
+    
+    h5 > strong {
         color: #467aa3;
     }
 
