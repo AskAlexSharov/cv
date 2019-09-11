@@ -272,6 +272,23 @@ ul ul li::before {
     background: #333;
 }
 
+.skill {
+    display: inline-block;
+    width: 7rem;
+}
+
+.skill-progress {
+    display: inline-block;
+    width: 10rem; 
+    border: 1px solid #ccc; 
+    position: relative;
+    height: 12px;
+}
+.skill-progress-inner {
+    height:10px; 
+    background-color:#ccc;
+}
+
 /* Utilities */
 /* .-span-cols-6 ul li{
   padding-left: 0.6em;

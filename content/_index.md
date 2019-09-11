@@ -22,6 +22,15 @@ I have held responsible positions in a number of companies specialising in IT se
 * manage a small team
 * time and opportunity to learn and apply emerging technologies
 * work hard but not 24/7
+
+#### Objectives
+
+Looking for **remote**, **meaningful**, individual contributor work. Prefer Go and Haskell as main tools 
+
+#### Aspirations
+
+Math. Programming language theory. 
+
 {{% /column %}}
 
 {{% /grid %}}
@@ -207,83 +216,19 @@ Oracle Certified Professional, Java SE 8 Programmer II.
   * [Twitter](https://twitter.com/AskAlexSharov)
 
 
+#### Skills
+{{% skill Go 100 %}}
+{{% skill PHP 100 %}}
+{{% skill MySql 100 %}}
+{{% skill Docker 90 %}}
+{{% skill ElasticSearch 90 %}}
+{{% skill Nginx 80 %}}
+{{% skill Linux 80 %}}
+{{% skill Java 80 %}}
+{{% skill Ansible 70 %}}
+{{% skill Haskell 60 %}}
+{{% skill AWS 60 %}}
+
 #### Hobbies
   * Karate, Guitar
 
-
-
-{{% grid %}}
-
-{{% column experience -span-cols-7 %}}
-
-
-#### Objectives
-
-Looking for **remote**, **meaningful**, individual contributor work. Prefer Go and Haskell as main tools 
-
-#### Aspirations
-
-Math. Programming language theory. Ethereum - [#17782](https://github.com/ethereum/go-ethereum/pull/17782), [#18083](https://github.com/ethereum/go-ethereum/pull/18083). 
-
-#### Experience
-
-
-##### Staff Engineer (had VP title), Go/Java: **2017 - Present: Alibaba Group | Lazada | eCommerce**
-
-* Lead 10 Java/React developers in Vietnam. 
-* Lead Data migration during Aquisition of 2 companies: Daraz and RedMart
-* Lead PayPerClick Marketing and SEO automation domains: S2S, ProductFeeds, LandingPages, 
-
-
-##### Team Lead, Go: 
-###### 2015 - 2017: Alibaba Group | Lazada | eCommerce 
-
-* Lead early adoption of GO inside company
-  * Service for Products DB/Search. 
-      * **Problem:** historically DB schema required too many joins (faced [Error Code: 1116]). 
-      * **What was done:** I implemented first GO service in company to parallelize queries. 
-  Moved products out of monolithic DB. Protect DB from complex queries by limited API. 
-  Minimize write-transactions duration and size (minimize locks). 
-  Introduced [Percona Toolkit](https://www.percona.com/doc/percona-toolkit/LATEST/index.html) to manage Schema and SlowLog analytics. 
-  I participated in paid Percona's Audit - reviewed and controlled implementation of audit results. 
-      * **Result 1:** throughput 1000rps with 90th percentile response time 0.03ms
-      * **Result 2:** x20 products growth (to 100M), one table reached 1Tb. 
-
-  * Service for Image Resizing/Store: 
-      * **Problem:** FileSystem was overloaded - too much small files and writes affected UX.
-      * **What was done:** We limited amount of parallel writes, stop store all sizes - switch to resize on-demand + CDN cache. 
-      * **Results:** reduced Image storage from 48Tb to 4Tb, x2 resize speedup, x2 download speedup for end users. 
-
-  * Few other core services - for FullTextSearch, etc... 
-       * **Result:** after 2 years company had 40 GO services. 
-
-* Lead 20 Go/PHP developers across Vietnam and Russia. 
-    * **What was done:** Introduced regular communication, Sprints + Retrospectives. 
-    * **Results:** 3-6 releases/week
-
-
-{{% /column %}}
-
-{{% column sidebar -span-cols-3 %}}
-
-{{%  face %}}
-
-##### Fluent with
-  * Go, PHP 
-  * MySql, Docker
-  * ElasticSearch
-  * Linux
-
-
-##### Familiar with
-  * Haskell
-  * AWS
-  * Ansible, Vitess
-  * Nginx
-  
-{{% divider %}}
-
-
-
-{{% /column %}}
-{{% /grid %}}
