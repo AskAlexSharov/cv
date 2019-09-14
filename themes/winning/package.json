@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "hugo serve -d docs",
-    "minifycss": "postcss ./themes/winning/static/css/main.css > ./docs/css/main.min.css && postcss ./themes/winning/static/css/belmu.css > ./docs/css/belmu.min.css",
+    "minifycss": "postcss ./themes/winning/static/css/main.css > ./docs/css/main.min.css",
     "stage": "HUGO_ENV=production npm start | npm run minifycss",
     "build": "HUGO_ENV=production hugo -d docs && npm run minifycss"
   },
@@ -24,7 +24,6 @@
   "homepage": "https://github.com/cssandstuff/cv#readme",
   "devDependencies": {
     "bootstrap": "4.3.1",
-    "cssnano": "^3.10.0",
     "html-pdf": "^2.2.0"
   }
 }
