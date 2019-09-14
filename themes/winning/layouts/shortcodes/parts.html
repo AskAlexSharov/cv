@@ -1,0 +1,7 @@
+<div class="container">
+{{ range (where .Site.RegularPages "Type" "parts").ByParam "order" }}
+<h4 class="row">{{ .Param "title" }}</h4>
+<div class="row">
+    <div class="col-12">{{ .Content }}</div>
+</div>
+{{end}}</div>
