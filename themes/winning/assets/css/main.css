@@ -22,22 +22,6 @@ footer a:hover {
     display: block;
 }
 
-/* CSS Grid for laying out elements */
-.grid-layout-1 {
-    display: grid;
-    grid-gap: 1em;
-    grid-template-areas: "header" "main" "footer";
-    grid-template-rows: 0fr auto 1fr;
-}
-
-@media only screen and (min-width: 1240px) {
-    .grid-layout-1 {
-        margin: auto;
-        /* width: 45em; */
-        box-shadow: 0 2px 52px rgba(0, 0, 0, 0.2);
-    }
-}
-
 .header {
     grid-area: header;
     padding-top: 2em;
@@ -130,7 +114,7 @@ p {
 }
 
 ul {
-    padding-inline-start: 20px;
+    padding-inline-start: 30px;
     margin-bottom: .2rem;
     padding-top: 0.1rem;
 }
@@ -210,6 +194,9 @@ ul ul li::before {
     background: #333;
 }
 
+.row {
+    margin-bottom: 0.5rem
+}
 .skill {
     display:flex;
 }
@@ -274,7 +261,6 @@ ul ul li::before {
 }
 
 /*# bootstrap.css print part */
-
 @media print {
     *,
     *::before,
@@ -285,11 +271,13 @@ ul ul li::before {
 
     @page {
         size: A4;
-        margin: 2cm 3cm;
+        margin: 1cm 2cm;
+        /* margin: 2cm 3cm; */
     }
 
+    
     html {
-        zoom: 0.83;
+        /* zoom: 0.83; */
         border-bottom: none;
         margin: 0;
         width: 100%;
@@ -303,6 +291,10 @@ ul ul li::before {
         height: 100%;
         margin: 0;
         /*min-width: 992px !important;*/
+    }
+
+    .shadow {
+        box-shadow:         none !important; 
     }
 
     h2  {
@@ -391,7 +383,7 @@ ul ul li::before {
         display: none;
     }
 
-    .main, .footer {
+    main, footer {
         width: 100%;
         max-width: none;
     }
@@ -421,10 +413,6 @@ ul ul li::before {
 @media only screen and (max-width: 800px) {
     .-float-left, .-float-right {
         float: none;
-    }
-
-    .grid {
-        display: block;
     }
 
     .-span-cols-4 {

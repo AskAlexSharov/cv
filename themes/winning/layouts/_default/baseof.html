@@ -38,13 +38,11 @@
 </head>
 
 <body class="ma0 {{ $.Param "body_classes"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
-    <div class="container grid-layout-1">
-        <main class="main" role="main" id="mainContent">
-            {{ block "main" . }}{{ end }}
-            <div id="drawing"></div>
-        </main>
+    <main class="container shadow pt-3"  role="main">
+        {{ .Content }}
+        <div id="drawing"></div>
         {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
-    </div>
+    </main>
 </body>
 
 </html>
