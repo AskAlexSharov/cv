@@ -30,7 +30,7 @@ My practical experience includes low-latency optimization of GO and PHP projects
 
 {{% /row %}}
 
-{{% experience %}}
+{{ partial "partials/experience.html" . }}
 
 {{% row %}}
 #### Open Source
