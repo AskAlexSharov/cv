@@ -1,6 +1,6 @@
 <div class="container">
-    <h4 class="row">Experience</h4>
-    {{ range (where .Site.RegularPages "Type" "places").ByParam "order" }}
+<h4 class="row">Experience</h4>
+{{ range (where .Site.RegularPages "Type" "places").ByParam "order" }}
 <div class="row">
     <div class="col-3">
         <h5>{{ .Param "position" }}</h4>
@@ -11,5 +11,4 @@
         {{ .Content }}
     </div>
 </div>
-    {{end}}
-</div>
+{{end}}</div>

@@ -39,7 +39,7 @@
 
 <body class="ma0 {{ $.Param "body_classes"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
     <main class="container shadow pt-3"  role="main">
-        {{ .Content }}
+        <div class="container">{{ .Content }}</div>
         <div id="drawing"></div>
         {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
     </main>

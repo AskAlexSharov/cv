@@ -3,4 +3,4 @@ languageCode = "en-us"
 title = ""
 theme = "winning"
 
-disableKinds = ["taxonomyTerm"]
+disableKinds = ["taxonomyTerm", "section"]
