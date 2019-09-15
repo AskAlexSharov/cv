@@ -1,7 +1,10 @@
 <div class="container">
-{{ range (where .Site.RegularPages "Type" "parts").ByParam "order" }}
-<h4 class="row">{{ .Param "title" }}</h4>
-<div class="row">
-    <div class="col-12">{{ .Content }}</div>
+    {{ range $i, $p := (where .Site.RegularPages "Type" "parts").ByParam "order" }}
+        {{if (modBool $i 2)}}<div class="row">{{end}}
+            <div class="col-6">
+                <h4>{{ .Param "title" }}</h4>
+                {{ .Content }}
+            </div>
+        {{if not (modBool $i 2)}}</div>{{end}}
+    {{end}}
 </div>
-{{end}}</div>

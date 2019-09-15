@@ -2,12 +2,13 @@
 <h4 class="row">Experience</h4>
 {{ range (where .Site.RegularPages "Type" "places").ByParam "order" }}
 <div class="row">
-    <div class="col-3">
-        <h5>{{ .Param "position" }}</h4>
-        <h6>{{ .Param "when" }}</h5>
-        <h6>{{ .Param "where" }}</h5>
+    <div class="col-2">
+        <h5>{{ .Param "position" }}</h5>
+        <h5>{{ .Param "position_explain" }}</h5>
+        <h6>{{ .Param "when" }}</h6>
+        <h6>{{ .Param "where" }}</h6>
     </div>
-    <div class="col-9">
+    <div class="col-10">
         {{ .Content }}
     </div>
 </div>

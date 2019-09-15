@@ -1,12 +1,16 @@
 /* Vanilla CSS you should try it */
 body {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 p {
     margin-top: 0;
     margin-bottom: 0;
 }
 
+.name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
 .divider {
     height: 1px;
     border: 0 dashed #467aa3;
@@ -274,7 +278,7 @@ ul ul li::before {
 
     @page {
         size: A4;
-        margin: 1cm 2cm;
+        margin: 1cm 1cm;
         /* margin: 2cm 3cm; */
     }
 

@@ -2,15 +2,18 @@
 title: CV
 ---
 
-**What I have to offer:**
+**My practical experience includes:** 
 
-My practical experience includes low-latency optimization of GO and PHP projects, work in distributed teams (within 6 diffrent timezones), care about product/project success (with my current company I passed long way from "30 devs startup" to aquisition by Alibaba and beyond), been self-motivated and self-managing, mentorshing backend and frontend devs.
+* low-latency optimization of GO and PHP projects
+* work in distributed teams - within 6 timezones, mentorship of backend and frontend devs
+* Care of product success: with current company I passed long way from "30 devs startup" to aquisition by Alibaba and beyond
+* been self-motivated and self-managing: last 4 years - my line managers were always remote - Russia/China/Singapore
+
 
 **What I'm looking for:**
 
-* remote-first organization with meaningful product
+* remote-first organization with meaningful product, GO teams are prefered
 * Staff engineer or Tech Lead position
 * do more coding than .ppt
 * professional, result-oriented environment
-* GO is prefered
 

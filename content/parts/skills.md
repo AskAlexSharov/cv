@@ -3,8 +3,8 @@ title: "Skills"
 order: 2
 ---
 
-GO, PHP, MySql, Docker, TypeScript, CSS, Git, Bootstrap, ElasticSearch - proficient
+Fluent with languages - GO, PHP, TypeScript, CSS
 
-Nginx, Linux, Java, Math, Haskell, Elm, Redis, RabbitMQ Consul, Aerospike, Memcached, Firebase - intermediate
+Fluent with products - MySql, Docker, Git, ElasticSearch, Memcached, Bootstrap
 
-Ansible, AWS, Python, Kubernetes, Kafka - basic
+Like but using less - Haskell, Elm, Python, Redis, Mongo, RabbitMQ, Consul, Firebase, Aerospike, Ansible, Kafka 

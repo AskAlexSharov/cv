@@ -1,5 +1,6 @@
 ---
 title: "Hobby"
+draft: true
 order: 6
 ---
 

@@ -1,9 +1,15 @@
 {{ define "main" }}
     <section class="row">
-        <div class="col-3">{{ partial "face.html" . }}</div>
-        <div class="col-9">
-            <h4>Alex Sharov</h4>
-            HoChiMinh city, Vietnam  |  AskAlexSharov@gmail.com
+        <div class="col-2">{{ partial "face.html" . }}</div>
+        <div class="col-10">
+            <div class="row mb-0">
+                <div class="col-4 name">
+                    Alex Sharov
+                </div>
+                <div class="col-8">
+                    <p class="text-right mt-2 mb-0"> HoChiMinh city, Vietnam  |  AskAlexSharov@gmail.com</p>
+                </div>
+            </div>
             <div class="divider"></div>
             {{ .Content }}
         </div>

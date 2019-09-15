@@ -7,6 +7,9 @@ draft: false
 order: 5
 ---
 
+Lead tech part of small Web-Studio with ~10 simultaneous clients
+
+* Hired 5 people. There was 2 devs when I joined.  
 * I introduced processes: git, tickets, PRD's, interviews
-* Simultaneously developed 3-4 websites
-* Administrate servers (Debian) for all clients
+* Simultaneously develop 3-4 websites
+* Maintained Debian servers for all clients

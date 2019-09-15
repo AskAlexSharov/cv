@@ -1,31 +1,29 @@
 ---
-position: "Team Lead, Go"
+position: "Team Lead"
 when: "2015 - 2017"
 where: "Alibaba Group | Lazada "
 draft: false
 order: 2
 ---
 
-Lead early adoption of GO inside company. Built team of 20 Go developers - distributed across Vietnam and Russia. After 2 years company had ~40 GO services.
+Lead early adoption of GO inside company. Built distributed team of 20 Go devs - Vietnam and Russia. 
 
 * Service for Products DB/Search. 
-    * **Problem:** historically DB schema required too many joins (faced [Error Code: 1116]). 
+    * **Problem:** historically MySql schema required too many joins. [ER_TOO_MANY_TABLES](https://dev.mysql.com/doc/refman/8.0/en/server-error-reference.html#error_er_too_many_tables) happened. 
     * **What was done:** I implemented first GO service in company to split queries and run them concurrently. 
-Moved products out of monolithic DB. Protect DB from complex queries by limited API. 
-Minimize write-transactions duration and size (minimize locks). 
-Introduced [Percona Toolkit](https://www.percona.com/doc/percona-toolkit/LATEST/index.html) to manage Schema and slow.log analytics. 
-I participated in paid Percona's Audit - reviewed and controlled implementation of audit results. 
+Moved products out of monolithic DB. Minimized locks by shorten transactions time. 
+One table reached 1Tb - and I helped DBA to start using [pt-online-schema-change](https://www.percona.com/doc/percona-toolkit/LATEST/index.html) to manage Schema.
+We ordered paid Percona's Audit - where I reviewed and controlled implementation of audit results. 
     * **Result 1:** throughput 1000rps with 90th percentile response time 0.03ms
-    * **Result 2:** x20 products growth (to 100M), one table reached 1Tb
+    * **Result 2:** x20 rowths growth (to 100M) within 2 months, one table size reached 1Tb
 
-* Service for Image Resizing/Store: 
-    * **Problem:** FileSystem was overloaded - too much small files and writes affected UX.
-    * **What was done:** We limited amount of parallel writes, stop store all sizes - switch to resize on-demand + CDN cache
-    * **Results:** reduced Image storage from 48Tb to 4Tb, x2 resize speedup, x2 download speedup for end users. 
+* Service for Image Resizing and Store: 
+    * **Problem:** FileSystem was overloaded - too much files and parallel writes. It affected UX. 
+    * **What was done:** Reason - 48 sizes * 2 types (.jpeg and .webp) images was pre-calculated and stored on disk after original image upload. We implemented Go Service for Image Storage and Resize, and made it enogh fast to do resize on-demand + CDN cache. Also limited parallel writes by write connections pool. V1 was built with ImageMagick bindings, but it [using exit sys-calls](https://github.com/ImageMagick/ImageMagick/search?l=C&q=exit) - resize in 1 goroutine can terminate whole Go process. We switched to [Vips](https://github.com/davidbyttow/govips).
+    * **Results:** reduced Image storage from 48Tb to 4Tb, x2 download speedup for end users (without GPU). 
 
 * Few other core services - for FullTextSearch, Suggestions, Orders, Holidays Calendar, etc... 
-    * **Result:** after 2 years company had 40 GO services. 
-
+    * **Result:** after 2 years company had 40 GO services and 100 Go developers
 
 
 
