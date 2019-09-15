@@ -1,0 +1,13 @@
+{{ define "main" }}
+    <div class="row">
+        <div class="col-3">{{ partial "face.html" . }}</div>
+        <div class="col-9">
+            <h4>Alex Sharov</h4>
+            HoChiMinh city, Vietnam  |  AskAlexSharov@gmail.com
+            <div class="divider"></div>
+            {{ .Content }}
+        </div>
+    </div>
+    {{ partial "experience.html" . }}
+    {{ partial "parts.html" . }}
+{{ end }}

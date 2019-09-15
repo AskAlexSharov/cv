@@ -1,0 +1,14 @@
+{
+  "name": "alex-sharov-cv",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "hugo serve -d docs",
+    "stage": "HUGO_ENV=production npm start",
+    "build": "HUGO_ENV=production hugo -d docs"
+  },
+  "devDependencies": {
+    "bootstrap": "4.3.1",
+    "html-pdf": "^2.2.0"
+  }
+}

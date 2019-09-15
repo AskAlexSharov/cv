@@ -3,7 +3,7 @@ build:
 
 pdf: build
 	rm -f static/cv.pdf
-	node ./themes/winning/generatepdf.js
+	node ./generatepdf.js
 
 deploy: build
 	firebase deploy

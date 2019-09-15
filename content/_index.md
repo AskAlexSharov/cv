@@ -2,17 +2,6 @@
 title: CV
 ---
 
-{{% row %}}
-
-{{% column col-3 %}}
-{{%  face %}}
-{{% /column %}}
-
-{{% column col-9 %}}
-#### Alex Sharov
-HoChiMinh city, Vietnam  |  AskAlexSharov@gmail.com
-{{%  divider %}}
-
 **What I have to offer:**
 
 My practical experience includes low-latency optimization of GO and PHP projects, work in distributed teams (within 6 diffrent timezones), care about product/project success (with my current company I passed long way from "30 devs startup" to aquisition by Alibaba and beyond), been self-motivated and self-managing, mentorshing backend and frontend devs.
@@ -24,12 +13,4 @@ My practical experience includes low-latency optimization of GO and PHP projects
 * do more coding than .ppt
 * professional, result-oriented environment
 * GO is prefered
-
-{{% /column %}}
-
-{{% /row %}}
-
-{{% experience %}}
-
-{{% parts %}}
 

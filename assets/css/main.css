@@ -1,0 +1,428 @@
+/* Vanilla CSS you should try it */
+body {
+    font-size: 0.9rem;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.divider {
+    height: 1px;
+    border: 0 dashed #467aa3;
+    border-top-width: 1px;
+    margin-bottom: .5em;
+}
+
+footer a:hover {
+    color: rgb(252, 76, 122);
+    border-color: rgb(252, 76, 122);
+}
+
+.footer {
+    grid-area: footer;
+    padding-bottom: 5em;
+    display: block;
+}
+
+.header {
+    grid-area: header;
+    padding-top: 2em;
+}
+
+.main {
+    grid-area: main;
+    margin: 0 auto 40px;
+    width: 85%;
+    /* max-width: 35em; */
+}
+
+.main h1 + p {
+    margin-right: 10px;
+}
+
+.main .grid {
+    margin-top: 1em;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+h3 {
+    margin: .7em 0 0 0;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: bold !important;
+    margin-top: 0.5rem;
+    width: 100%;
+    /* text-decoration: underline; */
+    /* border-bottom: solid 1px; */
+    /* background-color: #eee; */
+    border-left: 4px solid #467aa3;
+    border-bottom: 1px dashed #467aa3;
+    padding: 3px;
+    padding-left: 0.7rem;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    /*letter-spacing: 1px;*/
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+
+h6 {
+    margin: 0 0 0 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #467aa3;
+}
+
+h5 strong {
+    margin: 0 0 0 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #467aa3;
+}
+
+/*h6 em {*/
+/*    font-weight: 500;*/
+/*    font-size: 0.85rem;*/
+/*    color: #467aa3;*/
+/*    !*font-weight: 600;*!*/
+/*}*/
+
+
+
+
+
+/*.col h4 {*/
+/*margin-top: 5px;*/
+/*}*/
+
+/* Typographic defaults */
+
+p {
+    /*font-weight: 200;*/
+    /* font-size: 0.8em; */
+    margin-bottom: .1rem;
+}
+
+ul {
+    padding-inline-start: 30px;
+    margin-bottom: .2rem;
+    padding-top: 0.1rem;
+}
+
+ul li {
+    list-style-type: disc;
+    /* padding-left: 0.2em; */
+    /*line-height: 1.3em;*/
+    display: list-item;
+    /*font-weight: 200;*/
+    /* font-size: 0.75em; */
+}
+
+ul ul li {
+    list-style-type:  none;
+}
+ul ul li::before {
+    content: "-";
+    position: absolute;
+    margin-left: -15px;
+}
+
+
+.download, .download .download-icon, .download .download-icon:before,
+.download .download-icon:after {
+    transition: 0.7s all cubic-bezier(0.42, 0, 0.57, 1.96);
+}
+
+.download:hover {
+    color: rgb(252, 76, 122);
+}
+
+.download:hover .download-icon {
+    transform: scale(1);
+    border-color: rgb(252, 76, 122);
+}
+
+.download:hover .download-icon:before,
+.download:hover .download-icon:after {
+    background: rgb(252, 76, 122);
+}
+
+.download-icon {
+    width: 29px;
+    height: 29px;
+    border: 2px solid #333;
+    border-radius: 5em;
+    display: inline-block;
+    position: relative;
+    margin-left: -36px;
+    top: 8px;
+    left: 0px;
+    transform: scale(0.8);
+}
+
+.download-icon:before {
+    position: absolute;
+    left: 9px;
+    top: 8px;
+    transform: rotate(45deg);
+    content: '';
+    display: block;
+    height: 2px;
+    width: 10px;
+    background: #333;
+}
+
+.download-icon:after {
+    position: absolute;
+    left: 9px;
+    bottom: 9px;
+    transform: rotate(-45deg);
+    content: '';
+    display: block;
+    height: 2px;
+    width: 10px;
+    background: #333;
+}
+
+.row {
+    margin-bottom: 0.5rem
+}
+.skill {
+    display:flex;
+}
+.skill-title {
+    display:flex;
+    width: 7rem;
+}
+
+.skill-progress {
+    width: 10rem; 
+    position: relative;
+    height: 12px;
+    margin-top: 2px;
+}
+
+/* Utilities */
+/* .-span-cols-6 ul li{
+  padding-left: 0.6em;
+}
+
+
+.-span-cols-6 ul li:before{
+  content: "0" counter(item) ". ";
+  font-weight: 800;
+  margin-left: -1.65em;
+  margin-right: 2px;
+  font-size: 0.85em;
+  position: relative;
+  left: -8px;
+  top: -1px;
+} */
+
+.-clearfix {
+    display: block;
+    clear: both;
+}
+
+.-print-only {
+    display: none
+}
+
+.-print-only p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.-print-only h6 {
+    margin: 20px 0 0 0;
+}
+
+.lastpublished {
+    color: #999;
+    padding-top: 2em;
+}
+
+.face img {
+    margin: 1em auto 1em auto;
+}
+
+.face .name {
+    display: inline-block;
+}
+
+/*# bootstrap.css print part */
+@media print {
+    *,
+    *::before,
+    *::after {
+        text-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    @page {
+        size: A4;
+        margin: 1cm 2cm;
+        /* margin: 2cm 3cm; */
+    }
+
+    
+    html {
+        /* zoom: 0.83; */
+        border-bottom: none;
+        margin: 0;
+        width: 100%;
+    }
+
+    body {
+        /*line-height: 1.2;*/
+        /* background: none; */
+        overflow-x: hidden;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        /*min-width: 992px !important;*/
+    }
+
+    .shadow {
+        box-shadow:         none !important; 
+    }
+
+    h2  {
+        margin-block-start: 0;
+    }
+    h6 {
+        color: #467aa3;
+    }
+    
+    h5 > strong {
+        color: #467aa3;
+    }
+
+
+    a:not(.btn) {
+        text-decoration: underline;
+    }
+
+    abbr[title]::after {
+        content: " (" attr(title) ")";
+    }
+
+    pre {
+        white-space: pre-wrap;
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #adb5bd;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+    .badge {
+        border: 1px solid #000;
+    }
+
+    
+    /* .face {
+        width: 8em;
+    } */
+    /* .main h6 {
+        line-height: 1.5em;
+        margin-top: .5em;
+    } */
+    /* .main h1 + p {
+        margin-right: 2em;
+    } */
+    .-p-left-3 {
+        padding-left: 3em;
+    }
+
+    .-m-right-2 {
+        padding-right: 2em;
+    }
+
+    .-p-top-3 {
+        padding-top: 3em;
+    }
+
+    .-print-only {
+        display: block;
+    }
+
+    .-print-hidden, .download-icon {
+        display: none;
+    }
+
+    main, footer {
+        width: 100%;
+        max-width: none;
+    }
+
+    /*.main ul {*/
+    /*margin-top: 10px;*/
+    /*margin-left: 0.5em;*/
+    /*}*/
+    /* dl dd {
+        padding-bottom: 0
+    } */
+    .-float-right {
+        float: none;
+        width: 100%;
+    }
+
+    .-float-right .-print-only {
+        display: inline;
+    }
+
+    .footer {
+        padding-bottom: 0;
+    }
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 800px) {
+    .-float-left, .-float-right {
+        float: none;
+    }
+
+    .-span-cols-4 {
+        margin-top: 3em;
+    }
+
+    .footer {
+        width: 60%;
+    }
+}

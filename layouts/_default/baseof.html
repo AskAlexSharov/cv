@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
+    <title>{{ block "title" . }}{{ .Site.Title }}{{end}}</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    {{ hugo.Generator }}
+    {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
+    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    {{ else }}
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    {{ end }}
+
+    {{ $twbs := resources.Get "bootstrap/css/bootstrap.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $twbs.Permalink }}" type="text/css" integrity="{{ $twbs.Data.Integrity }}">
+
+    {{ $styleMain := resources.Get "css/main.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $styleMain.Permalink }}" type="text/css" integrity="{{ $styleMain.Data.Integrity }}">
+
+    {{ block "favicon" . }}
+    {{ partial "site-favicon.html" . }}
+    {{ end }}
+
+    {{ with .OutputFormats.Get "RSS" }}
+        <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+        <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    {{ end }}
+
+    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
+    {{ template "_internal/google_analytics_async.html" . }}
+    {{ end }}
+</head>
+
+<body class="ma0 {{ $.Param "body_classes"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+    <main class="container shadow pt-3"  role="main">
+        {{ block "main" . }}{{ end }}
+        <div id="drawing"></div>
+        {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
+    </main>
+</body>
+
+</html>
