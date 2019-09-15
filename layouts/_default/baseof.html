@@ -33,13 +33,18 @@
         <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
     {{ end }}
 
-    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
-    {{ template "_internal/google_analytics_async.html" . }}
+    {{/* NOTE: These Hugo Internal Templates can be found at https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
+    {{- template "_internal/opengraph.html" . -}}
+    {{- template "_internal/schema.html" . -}}
+    {{- template "_internal/twitter_cards.html" . -}}
+
+    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+        {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
 </head>
 
 <body class="ma0 {{ $.Param "body_classes"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
-    <main class="container shadow pt-3"  role="main">
+    <main class="container shadow-sm pt-3"  role="main">
         {{ block "main" . }}{{ end }}
         <div id="drawing"></div>
         {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
