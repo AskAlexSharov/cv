@@ -7,4 +7,4 @@ order: 2
 
 * Fluent with products - MySql, Docker, Git, ElasticSearch, Memcached, Bootstrap
 
-* Like but using less - Haskell, Elm, Python, Redis, Mongo, RabbitMQ, Consul, Firebase, Aerospike, Ansible, Kafka 
+* Like but using less - Haskell, Elm, Python, Redis, Aerospike, Mongo, RabbitMQ, Kafka, Consul, Firebase, Ansible
