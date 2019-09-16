@@ -1,5 +1,5 @@
 ---
-position: "Team Lead, Yii"
+position: "Team Lead"
 when: "2011 – 2012"
 where: "Art Project"
 companyKind: "Web-Studio"

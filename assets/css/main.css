@@ -1,4 +1,14 @@
-/* Vanilla CSS you should try it */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+.container .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+  
 body {
     font-size: 0.8rem;
 }
@@ -34,19 +44,9 @@ footer a:hover {
     padding-top: 2em;
 }
 
-.main {
-    grid-area: main;
-    margin: 0 auto 40px;
-    width: 85%;
-    /* max-width: 35em; */
-}
-
-.main h1 + p {
-    margin-right: 10px;
-}
-
-.main .grid {
-    margin-top: 1em;
+main.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 h2 {

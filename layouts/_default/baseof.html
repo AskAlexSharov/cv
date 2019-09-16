@@ -19,10 +19,12 @@
     {{ end }}
 
     {{ $twbs := resources.Get "bootstrap/css/bootstrap.css" | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $twbs.Permalink }}" type="text/css" integrity="{{ $twbs.Data.Integrity }}">
+    {{/*  <link rel="stylesheet" href="{{ $twbs.Permalink }}" type="text/css" integrity="{{ $twbs.Data.Integrity }}" crossorigin="anonymous">  */}}
+    <link rel="stylesheet" href="{{ $twbs.Permalink }}" type="text/css">
 
     {{ $styleMain := resources.Get "css/main.css" | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $styleMain.Permalink }}" type="text/css" integrity="{{ $styleMain.Data.Integrity }}">
+    {{/*  <link rel="stylesheet" href="{{ $styleMain.Permalink }}" type="text/css" integrity="{{ $styleMain.Data.Integrity }}" crossorigin="anonymous">  */}}
+    <link rel="stylesheet" href="{{ $styleMain.Permalink }}" type="text/css" >
 
     {{ block "favicon" . }}
     {{ partial "site-favicon.html" . }}

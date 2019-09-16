@@ -1,5 +1,5 @@
 build:
-	HUGO_ENV=production hugo --baseUrl=https://alex-sharov.firebaseapp.com/ --minify
+	HUGO_ENV=production hugo --baseUrl=https://alex-sharov-cv.web.app/ --minify
 
 pdf: build
 	rm -f static/cv.pdf
