@@ -8,7 +8,7 @@ order: 2
 
 Lead early adoption of GO inside company. Built distributed team of 20 Go devs - Vietnam and Russia. 
 
-* Service for Products DB/Search. 
+* Service for Products Search and Store. 
     * **Problem:** historically MySql schema required too many joins. [ER_TOO_MANY_TABLES](https://dev.mysql.com/doc/refman/8.0/en/server-error-reference.html#error_er_too_many_tables) happened. 
     * **What was done:** I implemented first GO service in company to split queries and run them concurrently. 
 Moved products out of monolithic DB. Minimized locks by shorten transactions time. 

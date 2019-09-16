@@ -1,5 +1,6 @@
 ---
 title: "Education"
+draft: true
 order: 3
 ---
 

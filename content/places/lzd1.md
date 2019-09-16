@@ -14,5 +14,5 @@ Focus on Latency and Availability of website
     * replace 1 node of Solr by ElasticSearch cluster, stress-test and growth ElasticSearch cluster to 25 nodes. Implemented support of 6 languages, multi-word synonyms - [Lucene didn't support it yet](https://issues.apache.org/jira/browse/LUCENE-6664)
 * Accidents investigation and prevention
 * PHP profiling, moving logic to background by RabbitMQ
-* MySql slow-queries optimization, used fork of [Anemometer](https://github.com/box/Anemometer) to show for responsible teams only relevant slow queries. 
+* MySql slow-queries monitoring - used fork of [Anemometer](https://github.com/box/Anemometer) to show each team only relevant slow queries. 
 

@@ -300,7 +300,7 @@ ul ul li::before {
         /*min-width: 992px !important;*/
     }
 
-    .shadow {
+    .shadow , .shadow-sm {
         box-shadow:         none !important; 
     }
 

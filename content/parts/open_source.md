@@ -3,9 +3,9 @@ title: "Open Source"
 order: 1
 ---
 
-* Github accounts: http://github.com/AskAlexSharov and http://github.com/nizsheanez
+* Github accounts: [AskAlexSharov](http://github.com/AskAlexSharov) and [nizsheanez](http://github.com/nizsheanez)
 
-* Golang: 
+* Golang stdlib: 
 [issue#17826](https://github.com/golang/go/issues/17826)
 
 * Ethereum Swarm - 
@@ -18,12 +18,12 @@ order: 1
 [PR#32](https://github.com/olivere/elastic/pull/32),
 [PR#81](https://github.com/olivere/elastic/pull/81)
 
-* Go web framework - Beego: 
+* Beego - Go web framework: 
 [PR#728](https://github.com/astaxie/beego/pull/728)
 
-* GO SQL Builder - squirrel: 
+* Squirrel - GO SQL Builder: 
 [PR#2](https://github.com/yvasiyarov/squirrel/pull/2)
 
-* PHP web framework - Yii2: Maintaining 
-[yii2-json-rpc](https://github.com/nizsheanez/yii2-json-rpc) and 
-[yii2-asset-converter](https://github.com/nizsheanez/yii2-asset-converter) libraries 
+* Maintaining 2 libs for Yii2 framework: 
+[json-rpc](https://github.com/nizsheanez/yii2-json-rpc) and 
+[asset-converter](https://github.com/nizsheanez/yii2-asset-converter)
