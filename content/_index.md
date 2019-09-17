@@ -12,8 +12,8 @@ title: CV
 
 **What I'm looking for:**
 
-* remote-first organization with meaningful product
+* remote-first organization with meaningful product, 
 * senior golang engineer or tech lead position
 * do more coding than .ppt
-* professional, result-oriented environment
+* professional, result-oriented, motivated environment
 
