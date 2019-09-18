@@ -20,7 +20,7 @@ We ordered paid Percona's Audit - where I reviewed and controlled the implementa
 
 * Service for Image Resizing and Store: 
     * **Problem:** FileSystem was overloaded - too many files and parallel writes. It affected UX. 
-    * **What was done:** Reason - 48 sizes * 2 types (.jpeg and .webp) images were pre-calculated and stored on disk after original image upload. We implemented Go Service for Image Storage and Resize, and made it enough fast to do resize on-demand + CDN cache. Also limited parallel writes by write connections pool. V1 was built with ImageMagick bindings, but it [using exit sys-calls](https://github.com/ImageMagick/ImageMagick/search?l=C&q=exit) - resize in 1 goroutine can terminate the whole Go process. We switched to [Vips](https://github.com/davidbyttow/govips).
+    * **What was done:** Reason - 48 sizes * 2 types (.jpeg and .webp) images were pre-calculated and stored on disk after original image upload. We implemented Go Service for Image Storage and Resize, and made it fast enough to do resize on-demand + CDN cache. Also, limited parallel writes by write connections pool. V1 was built with ImageMagick bindings, but it [using exit sys-calls](https://github.com/ImageMagick/ImageMagick/search?l=C&q=exit) - resize in 1 goroutine can terminate the whole Go process. We switched to [Vips](https://github.com/davidbyttow/govips).
     * **Results:** reduced Image storage from 48Tb to 4Tb, x2 download speedup for end-users (without GPU). 
 
 * A few other core services - for FullTextSearch, Suggestions, Orders, Holidays Calendar, etc... 
