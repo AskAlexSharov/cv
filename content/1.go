@@ -1,0 +1,1 @@
+go tool pprof -http=:8082 http://{my_service}

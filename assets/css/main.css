@@ -147,7 +147,7 @@ ul ul li::before {
 
 .download, .download .download-icon, .download .download-icon:before,
 .download .download-icon:after {
-    transition: 0.7s all cubic-bezier(0.42, 0, 0.57, 1.96);
+    /* transition: 0.7s all cubic-bezier(0.42, 0, 0.57, 1.96); */
 }
 
 .download:hover {
@@ -155,7 +155,7 @@ ul ul li::before {
 }
 
 .download:hover .download-icon {
-    transform: scale(1);
+    /* transform: scale(1); */
     border-color: rgb(252, 76, 122);
 }
 
@@ -172,7 +172,7 @@ ul ul li::before {
     display: inline-block;
     position: relative;
     margin-left: -36px;
-    top: 8px;
+    top: 10px;
     left: 0px;
     transform: scale(0.8);
 }
