@@ -1,13 +1,15 @@
 @media (min-width: 1200px) {
-    .container {
+    main.container {
         max-width: 960px;
+        /* padding-left: 2rem;
+        padding-right: 2rem;     */
     }
 }
 
-.container .container {
+/* .container .container {
     padding-left: 0;
     padding-right: 0;
-}
+} */
   
 body {
     font-size: 0.8rem;
@@ -44,10 +46,6 @@ footer a:hover {
     padding-top: 2em;
 }
 
-main.container {
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
 
 h2 {
     font-size: 1.5rem;
@@ -259,13 +257,6 @@ ul ul li::before {
     padding-top: 2em;
 }
 
-.face img {
-    margin: 1em auto 1em auto;
-}
-
-.face .name {
-    display: inline-block;
-}
 
 /*# bootstrap.css print part */
 @media print {
@@ -390,7 +381,8 @@ ul ul li::before {
         display: none;
     }
 
-    main, footer {
+    main,
+    footer {
         width: 100%;
         max-width: none;
     }

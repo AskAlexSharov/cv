@@ -6,7 +6,7 @@ draft: false
 order: 2
 ---
 
-Lead early adoption of GO inside the company. Built distributed team of 20 Go devs - Vietnam and Russia. 
+Lead early adoption of GO inside the company, built first services, after 2 years company had 40 GO services and 100 Go developers. Built distributed team of 20 Go devs - Vietnam and Russia. 
 
 * Service for Products Search and Store. 
     * **Problem:** historically MySql schema required too many joins. [ER_TOO_MANY_TABLES](https://dev.mysql.com/doc/refman/8.0/en/server-error-reference.html#error_er_too_many_tables) happened. 
@@ -24,7 +24,5 @@ We ordered paid Percona's Audit - where I reviewed and controlled the implementa
     * **Results:** reduced Image storage from 48Tb to 4Tb, x2 download speedup for end-users (without GPU). 
 
 * A few other core services - for FullTextSearch, Suggestions, Orders, Holidays Calendar, etc... 
-    * **Result:** after 2 years company had 40 GO services and 100 Go developers
-
 
 

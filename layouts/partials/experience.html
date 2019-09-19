@@ -1,18 +1,18 @@
 <div class="container">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-12">
             <h4>Experience</h4>
         </div>
     </div>
     {{ range (where .Site.RegularPages "Type" "places").ByParam "order" }}
     <div class="row">
-        <div class="col-sm-3">
+        <div class="col-3">
             <h5>{{ .Param "position" }}</h5>
             <h5>{{ .Param "position_explain" }}</h5>
             <h6>{{ .Param "when" }}</h6>
             <h6>{{ .Param "where" }}</h6>
         </div>
-        <div class="col-sm-9">
+        <div class="col-9">
             {{ .Content }}
         </div>
     </div>

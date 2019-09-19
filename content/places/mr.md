@@ -7,7 +7,4 @@ draft: false
 order: 4
 ---
 
-Develop most of Search-related features
-
-* **Problem:** Solr had poor support of the Russian language
-* **What was done:** Switched to SphinxSearch. Implemented real-time indexing, Soundex index, synonyms support
+Develop most of Full-Text Search features: support of the Russian language, Soundex index, synonyms support, real-time indexing
