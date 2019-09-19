@@ -9,4 +9,6 @@ order: 2
 
 * Like but using less - Haskell, Elm, Python, Redis, Aerospike, Mongo, RabbitMQ, Kafka, Consul, Firebase, Ansible
 
+---
+
 * Social accounts: [linkedin.com/in/AskAlexSharov](https://www.linkedin.com/in/AskAlexSharov)
