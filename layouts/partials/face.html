@@ -1,5 +1,5 @@
 {{ range first 1 (.Page.Resources.ByType "image") }}
-{{ $imageXL := .Resize "190x q90" }}
+{{ $imageXL := .Resize "190x q100" }}
 <img class="img-fluid img-thumbnail" alt="Face image" src="{{ $imageXL.RelPermalink | absURL }}" />
 {{ end }}
 
