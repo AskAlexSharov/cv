@@ -2,4 +2,9 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "alex-sharov-cv"
 
-disableKinds = ["taxonomyTerm", "section"]
+disableKinds = ["taxonomyTerm", "section", "taxonomy"]
+enableRobotsTXT = "true" 
+
+[taxonomies]
+    parts = ""
+    places = ""
