@@ -13,8 +13,8 @@ title: CV
 **What I'm looking for:**
 
 * Remote-first organization with meaningful product
-* Senior Engineer, Tech Lead or R&D position. Golang projects are preferred 
-* Do more coding than .ppt
+* Individual contributor role - Senior Engineer or R&D
+* Golang projects are preferred 
 * Professional, result-oriented, motivated environment
 
 

@@ -27,9 +27,7 @@
     {{/*  <link rel="stylesheet" href="{{ $styleMain.Permalink }}" type="text/css" integrity="{{ $styleMain.Data.Integrity }}" crossorigin="anonymous">  */}}
     <link rel="stylesheet" href="{{ $styleMain.Permalink }}" type="text/css" >
 
-    {{ block "favicon" . }}
-    {{ partial "site-favicon.html" . }}
-    {{ end }}
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon"/>
 
     {{ with .OutputFormats.Get "RSS" }}
         <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
@@ -49,8 +47,7 @@
 <body class="ma0 {{ $.Param "body_classes"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
     <main class="container shadow pt-3"  role="main">
         {{ block "main" . }}{{ end }}
-        <div id="drawing"></div>
-        {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
+        {{ partial "site-footer.html" . }}
     </main>
 </body>
 

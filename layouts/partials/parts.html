@@ -1,8 +1,8 @@
 {{ range $i, $p := (where .Site.RegularPages "Type" "parts").ByParam "order" }}
-    {{if (modBool $i 2)}}<div class="row">{{end}}
+    {{if (modBool $i 2)}}<section class="row">{{end}}
         <div class="col-6">
             <h4>{{ .Param "title" }}</h4>
             {{ .Content }}
         </div>
-    {{if not (modBool $i 2)}}</div>{{end}}
+    {{if not (modBool $i 2)}}</section>{{end}}
 {{end}}
